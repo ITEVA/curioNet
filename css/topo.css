@@ -1,0 +1,69 @@
+button.areaCliente{
+    color: #fff;
+    background-color: #3E6398;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    float: left;
+    margin-top: 9%;
+    margin-bottom: 2%;
+}
+
+div.botao{
+    float: right;
+    width: 29.5%;
+}
+
+img#logo{
+    float: right;
+}
+
+div.logo{
+    width: 33%;
+    padding-top: 1%;
+}
+
+div.barraSuperior{
+    background-color:#f3f3f3;
+    position: relative;
+}
+
+div.barraInferior{
+    display: inline-flex;
+    position: relative;
+}
+
+div.menu{
+    padding-top: 1.5%;
+    width: 50%;
+    height: 107px;
+}
+
+ul.nav{
+    float: right;
+    margin-right: 7.5%;
+}
+
+span.glyphicon-user{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+div#box {
+    z-index: 99999;
+}
+

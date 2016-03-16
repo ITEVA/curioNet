@@ -1,0 +1,115 @@
+@charset "utf-8";
+p{
+	margin: 0;
+}
+
+div.container{
+	width:100%;
+	height:100px;
+	margin:0;
+	padding:0;
+}
+
+ol#car-img{
+	width:50%;
+	left:80%;
+}
+
+ol.carousel-indicators{
+	bottom: -10px;
+}
+
+ol.carousel-indicators li{
+	width:20px;
+	height:20px;
+	background-color: transparent;
+	border: 4px solid #3E6398;
+}
+
+.carousel-indicators .active {
+	width: 20px;
+	height: 20px;
+	margin-bottom: 2px;
+	background-color: #3E6398;
+}
+
+img.seta1 {
+	margin-right: -15px;
+	margin-top: -15px;
+	position: absolute;
+	top: 65%;
+	left: 21%;
+	cursor: pointer;
+}
+
+img.seta2 {
+	margin-right: -15px;
+	margin-top: -15px;
+	position: absolute;
+	top: 65%;
+	right: 22%;
+	cursor: pointer;
+}
+
+div.box{
+	width: 52%;
+	display: inline-flex;
+	margin-left: 24%;
+}
+
+div.boxCenter{
+	display: block;
+	position: relative;
+	float: none;
+	margin: 0 auto;
+	width: 55%;
+}
+
+div.icons{
+	margin-right: 15%;
+	width: 100%;
+}
+
+div.iconFinal{
+	margin-right: 0;
+}
+
+img.imgIcons{
+	width: 100%;
+}
+
+div.divisao1{
+	height: 50px;
+}
+
+p.title{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 25px;
+	text-align: center;
+}
+
+p.titleMaior{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 25px;
+	text-align: center;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+p.info{
+	margin-right: -27px;
+	text-align: center;
+	margin-left: -20px;
+	margin-top: 10px;
+}
+
+div.texto{
+	width: 100%;
+}
+
+#myCarousel{
+	z-index: 0;
+}
+
