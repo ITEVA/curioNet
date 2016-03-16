@@ -1,4 +1,4 @@
-button.areaCliente{
+button.btnCliente{
     color: #fff;
     background-color: #3E6398;
     display: inline-block;
@@ -18,7 +18,7 @@ button.areaCliente{
     border: 1px solid transparent;
     border-radius: 4px;
     float: left;
-    margin-top: 9%;
+    margin-top: 7%;
     margin-bottom: 2%;
 }
 

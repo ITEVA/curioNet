@@ -1,0 +1,68 @@
+img.imgPrincipal{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+button.btnPlanos{
+    color: #fff;
+    background-color: #3E6398;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 2%;
+    margin-left: 24%;
+    margin-top: -12%;
+    font-size: 17px;
+}
+
+div.divInferior{
+    background-color: #174355;
+    margin-top: -1.5%;
+    padding: 0;
+    height: 275px;
+    font-size: 17px;
+}
+
+div.info{
+    display: block;
+    position: relative;
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+h1{
+    font-size: 55px;
+}
+
+div.boxBranca{
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #174355;
+    width: 44%;
+    height: 50px;
+    font-size: 20px;
+    padding: 11px 0 8px 0;
+}
+
+div.contato{
+    margin-top: 3%;
+}

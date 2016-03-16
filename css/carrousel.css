@@ -79,7 +79,7 @@ img.imgIcons{
 }
 
 div.divisao1{
-	height: 50px;
+	height: 40px;
 }
 
 p.title{
@@ -113,3 +113,9 @@ div.texto{
 	z-index: 0;
 }
 
+div.divisoria{
+	height: 100px;
+}
+div.tudo{
+	display: inline-flex;
+}
