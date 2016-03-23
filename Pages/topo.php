@@ -22,25 +22,25 @@
     </div>
     <div class="col-lg-8 logoResponsive">
         <div class="imgCenter">
-            <img id="logoResponsive" src="img/logo.jpg"/>
+            <a href="#home"><img id="logoResponsive" src="img/logo.jpg"/></a>
         </div>
     </div>
 </div>
 
+    <div id="home"></div>
 
 <div class="col-lg-12 barraInferior">
     <div class="col-lg-6 box2">
     <div class="logo">
-        <img id="logo" src="img/logo.jpg">
+        <a href="#home"><img id="logo" src="img/logo.jpg"></a>
     </div>
-
     <div class="menu">
         <ul class="nav nav-pills">
-            <li id="liMenu" role="presentation" class="active"><a href="home">Home</a></li>
-            <li id="liMenu" role="presentation"><a href="#quemSomos">Quem somos</a></li>
-            <li id="liMenu" role="presentation"><a href="planos">Planos</a></li>
-            <li id="liMenu" role="presentation"><a href="contato">Contatos</a></li>
-            <li id="liMenu" role="presentation"><a href="http://www.speedtest.net/pt/" target="blank">Medidor de velocidade</a></li>
+            <li id="liMenu1" role="presentation" class="active"><a href="#home">Home</a></li>
+            <li id="liMenu2" role="presentation"><a href="#quemSomos">Quem somos</a></li>
+            <li id="liMenu3" role="presentation"><a href="planos">Planos</a></li>
+            <li id="liMenu4" role="presentation"><a href="contato">Contatos</a></li>
+            <li id="liMenu5" role="presentation"><a href="http://www.speedtest.net/pt/" target="blank">Medidor de velocidade</a></li>
         </ul>
     </div>
     </div>
@@ -57,7 +57,7 @@
 
             <div id="menu2" class="menu2">
                 <div id="links">
-                    <a id="link1" href="#">Home</a>
+                    <a id="link1" href="#home">Home</a>
                     <hr>
                     <a href="#quemSomos">Quem Somos</a>
                     <hr>
@@ -76,28 +76,6 @@
             <button class="btnCliente2" title="Área do Cliente">&nbsp;<span class="glyphicon glyphicon-user"></span></button>
         </div>
     </div>
-<!--
-    <div id="boxes">
-
-        <div id="dialog" class="window">
-            <div class="menuResponsive">
-                <a href="">Home</a>
-                <hr/>
-                <a href="">Quem Somos</a>
-                <hr/>
-                <a href="">Planos</a>
-                <hr/>
-                <a href="">Contatos</a>
-                <hr/>
-                <a href="">Teste de Velocidade</a>
-            </div>
-        </div>
-
-        <!-- Máscara para cobrir a tela
-        <div id="mask"></div>
-
-</div>
--->
 </div>
 </div>
 

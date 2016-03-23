@@ -3,7 +3,7 @@ $(function(){
         event.preventDefault();
         var idElemento = $(this).attr("href");
         var deslocamento = $(idElemento).offset().top;
-        $('html, body').animate({ scrollTop: deslocamento }, 900);
+        $('html, body').animate({ scrollTop: deslocamento }, 1000);
     });
 });
 
@@ -22,4 +22,59 @@ $(document).ready(function() {
 
     });
 
+});
+
+$(function(){
+    $("ul li#liMenu2").click(function (event) {
+        event.preventDefault();
+        document.getElementById("liMenu2").className = "active";
+        document.getElementById("liMenu1").className = "";
+        document.getElementById("liMenu3").className = "";
+        document.getElementById("liMenu4").className = "";
+        document.getElementById("liMenu5").className = "";
+    });
+});
+
+$(function(){
+    $("ul li#liMenu1").click(function (event) {
+        event.preventDefault();
+        document.getElementById("liMenu1").className = "active";
+        document.getElementById("liMenu2").className = "";
+        document.getElementById("liMenu3").className = "";
+        document.getElementById("liMenu4").className = "";
+        document.getElementById("liMenu5").className = "";
+    });
+});
+
+$(function(){
+    $("ul li#liMenu3").click(function (event) {
+        event.preventDefault();
+        document.getElementById("liMenu3").className = "active";
+        document.getElementById("liMenu1").className = "";
+        document.getElementById("liMenu2").className = "";
+        document.getElementById("liMenu4").className = "";
+        document.getElementById("liMenu5").className = "";
+    });
+});
+
+$(function(){
+    $("ul li#liMenu4").click(function (event) {
+        event.preventDefault();
+        document.getElementById("liMenu4").className = "active";
+        document.getElementById("liMenu1").className = "";
+        document.getElementById("liMenu3").className = "";
+        document.getElementById("liMenu2").className = "";
+        document.getElementById("liMenu5").className = "";
+    });
+});
+
+$(function(){
+    $("ul li#liMenu5").click(function (event) {
+        event.preventDefault();
+        document.getElementById("liMenu5").className = "active";
+        document.getElementById("liMenu1").className = "";
+        document.getElementById("liMenu3").className = "";
+        document.getElementById("liMenu4").className = "";
+        document.getElementById("liMenu2").className = "";
+    });
 });
