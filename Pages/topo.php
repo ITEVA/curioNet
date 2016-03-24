@@ -48,7 +48,7 @@
     <div id="menuToggle">
         <div class="entire-menu">
 
-            <input type="checkbox" id="change-hamburguer" />
+            <input type="checkbox" name="change-hamburguer" id="change-hamburguer" />
 
             <a id="hamburguer" class="hamburguer" href="#">
                 <span></span>

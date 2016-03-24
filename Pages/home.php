@@ -203,7 +203,7 @@
     <div class="col-lg-12 divInferior">
         <div class="info">
             <h1 id="title">Fale conosco</h1>
-            <p>Entre em contato conosco agora mesmo e conheça melhor as soluções da Curió para você!</p>
+            <p>Entre em contato conosco agora mesmo e conheça melhor as soluções da Curió para melhor atendê-los!</p>
 
             <div class="contato">
                 <div class="boxBranca">

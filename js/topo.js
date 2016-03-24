@@ -1,5 +1,16 @@
+$(function() {
+    $(".menu2").click(function (event) {
+        event.preventDefault();
+
+        $('.menu2').css({'height': '0'});
+
+        $('#change-hamburguer').click();
+
+    });
+});
+
 $(function(){
-    $("ul a").click(function (event) {
+    $("#links a").click(function (event) {
         event.preventDefault();
         var idElemento = $(this).attr("href");
         var deslocamento = $(idElemento).offset().top;
