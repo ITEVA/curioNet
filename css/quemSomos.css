@@ -53,11 +53,12 @@ div.divInferior{
 div.info{
     display: block;
     position: relative;
-    width: 50%;
+    width: 330px;
     float: none;
     margin: 0 auto;
     text-align: center;
     color: #fff;
+    padding-top: 10px;
 }
 
 h1{
@@ -71,9 +72,8 @@ div.boxBranca{
     margin: 0 auto;
     background-color: #fff;
     color: #174355;
-    width: 44%;
     height: 50px;
-    font-size: 20px;
+    font-size: 17px;
     padding: 11px 0 8px 0;
 }
 
@@ -128,6 +128,10 @@ p#historia{
     button.btnPlanos{
         font-size: 10px;
     }
+
+    div.divInferior{
+        margin-top: -2.5%;
+    }
 }
 
 @media all and (max-width: 1030px){
@@ -150,6 +154,10 @@ p#historia{
 
     img.imgPrincipal2-2{
         display: block;
+    }
+
+    div#btnFull{
+        display: none;
     }
 
     div#botao{
@@ -188,5 +196,16 @@ p#historia{
         font-size: 9px;
     }
 
+    div.info{
+        width: 285px;
+    }
+
+    h1#title{
+        font-size: 45px;
+    }
+
+    div.boxBranca{
+        font-size: 14px;
+    }
 }
 

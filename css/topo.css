@@ -172,6 +172,10 @@ li.menu{
     width: 80%;
 }
 
+.hamburguer:hover{
+    opacity: 0.9;
+}
+
 .hamburguer {
     width: 25px;
     height: 19px;
@@ -237,9 +241,9 @@ li.menu{
 .menu2 {
     max-height: 0;
     background: #3E6398;
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-    overflow: hidden;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    overflow-y: hidden;
     font-family: sans-serif;
     font-weight: 400;
     font-size: 17px;
@@ -268,11 +272,12 @@ hr{
 }
 
 div#links{
-    width: 80%;
+    width: 65%;
     display: block;
     position: relative;
     float: none;
-    margin: 0 auto;
+    padding-left: 10%;
+    padding-top: 8%;
 }
 
 a#link1{
@@ -481,6 +486,10 @@ a#link1{
         margin-top: -7.9%;
         margin-left: -2.9%;
     }
+
+    div#links{
+        padding-top: 10%;
+    }
 }
 
 
@@ -533,6 +542,11 @@ a#link1{
     div.barraSuperior{
         padding-top: 10px;
     }
+
+    div#links{
+        padding-top: 14%;
+        padding-left: 12%;
+    }
 }
 
 
@@ -544,6 +558,10 @@ a#link1{
 
     a#link1{
         margin-top: 20%;
+    }
+
+    div#links{
+        padding-top: 5%;
     }
 }
 

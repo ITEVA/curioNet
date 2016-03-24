@@ -40,7 +40,7 @@
             <li id="liMenu2" role="presentation"><a href="#quemSomos">Quem somos</a></li>
             <li id="liMenu3" role="presentation"><a href="planos">Planos</a></li>
             <li id="liMenu4" role="presentation"><a href="contato">Contatos</a></li>
-            <li id="liMenu5" role="presentation"><a href="http://www.speedtest.net/pt/" target="blank">Medidor de velocidade</a></li>
+            <li id="liMenu5" role="presentation"><a target="_blank" href="http://www.speedtest.net/pt/">Teste de Velocidade</a></li>
         </ul>
     </div>
     </div>
