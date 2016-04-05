@@ -1,0 +1,71 @@
+p.titleAzul{
+    font-size: 20px;
+    color: #4470b5;
+    padding-top: 25px;
+    padding-bottom: 2%;
+}
+
+p#texto{
+    padding-bottom: 7%;
+    text-align: justify;
+}
+
+div.textosPlanos{
+    width: 47%;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+
+div.planos{
+    background-color: #F3F3F3;
+}
+
+div.megas{
+    width: 100%;
+    display: inline-flex;
+    padding-bottom: 5%;
+}
+
+div#inline{
+    display: inline-flex;
+    width: 100%;
+}
+
+a.planos{
+    width: 33%;
+    margin-left: 2%;
+}
+
+a.planosEspeciais{
+    width: 36%;
+}
+
+a.primeiro{
+    margin-left: 13%;
+}
+
+a.ultimo{
+    margin-right: 2%;
+}
+
+img.imgMega{
+    width: 100%;
+}
+
+img#linha{
+    width: 80%;
+    height: 4px;
+    padding-left: 3%;
+    margin-top: 4%;
+}
+
+img.imgMega:hover{
+    width: 105%;
+    margin-top: -2%;
+}
+
+div.divisao2{
+    height: 30px;
+}

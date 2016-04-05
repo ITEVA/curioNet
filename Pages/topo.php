@@ -36,11 +36,11 @@
     </div>
     <div class="menu">
         <ul class="nav nav-pills">
-            <li id="liMenu1" role="presentation" class="active"><a href="#home">Home</a></li>
-            <li id="liMenu2" role="presentation"><a href="#quemSomos">Quem somos</a></li>
-            <li id="liMenu3" role="presentation"><a href="planos">Planos</a></li>
-            <li id="liMenu4" role="presentation"><a href="contato">Contatos</a></li>
-            <li id="liMenu5" role="presentation"><a target="_blank" href="http://www.speedtest.net/pt/">Teste de Velocidade</a></li>
+            <li id="liMenu1" role="presentation" class="active"><a class="linkRola" href="#home">Home</a></li>
+            <li id="liMenu2" role="presentation"><a class="linkRola" href="#quemSomos">Quem somos</a></li>
+            <li id="liMenu3" role="presentation"><a class="linkRola" href="#planos">Planos</a></li>
+            <li id="liMenu4" role="presentation"><a class="linkRola" href="#contato">Contatos</a></li>
+            <li id="liMenu5" role="presentation"><a class="linkRola" target="_blank" href="http://www.speedtest.net/pt/">Teste de Velocidade</a></li>
         </ul>
     </div>
     </div>
@@ -57,13 +57,13 @@
 
             <div id="menu2" class="menu2">
                 <div id="links">
-                    <a id="link1" href="#home">Home</a>
+                    <a class="linkRola" id="link1" href="#home">Home</a>
                     <hr>
-                    <a href="#quemSomos">Quem Somos</a>
+                    <a class="linkRola" href="#quemSomos">Quem Somos</a>
                     <hr>
-                    <a href="#planos">Planos</a>
+                    <a class="linkRola" href="#planos">Planos</a>
                     <hr>
-                    <a href="#contatos">Contatos</a>
+                    <a class="linkRola" href="#contatos">Contatos</a>
                     <hr>
                     <a target="_blank" href="http://www.speedtest.net/pt/">Teste de Velocidade</a>
                     <hr>

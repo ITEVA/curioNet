@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/carrousel.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/quemSomos.css">
+    <link rel="stylesheet" href="css/planos.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
@@ -14,6 +15,7 @@
 </head>
 <body>
 
+<!------------------------------HOME---------------------------------------->
 <div class="tudo">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -165,10 +167,15 @@
 
 </div>
 
+<!------------------------------/HOME---------------------------------------->
+
 <div class="col-lg-12 divisoria"></div>
 
+<!------------------------------QUEM_SOMOS---------------------------------------->
 <div class="quemSomos">
+
     <img class="imgPrincipal" src="img/quemSomos.jpg"/>
+    <div id="quemSomos"></div>
     <img class="imgPrincipal2" src="img/quemSomos2.jpg"/>
     <img class="imgPrincipal2-1" src="img/quemSomos2-1.jpg"/>
     <img class="imgPrincipal2-2" src="img/quemSomos2-2.jpg"/>
@@ -199,7 +206,6 @@
         </div>
     </div>
 
-    <div id="quemSomos"></div>
     <div class="col-lg-12 divInferior">
         <div class="info">
             <h1 id="title">Fale conosco</h1>
@@ -213,5 +219,63 @@
         </div>
     </div>
 </div>
+
+<!------------------------------/QUEM_SOMOS---------------------------------------->
+
+<div class="col-lg-12 divisoria"></div>
+
+<!------------------------------PLANOS---------------------------------------->
+
+<div id="planos"></div>
+
+<div class="col-lg-12 planos">
+    <div class="textosPlanos">
+        <p class="titleAzul">INTERNET PARA SUA CASA</p>
+
+        <p id="texto">
+            Diversão, informação e entreterimento 24h por dia em
+            alta velocidade! Acesse a internet sem interferências,
+            interrupções e, principalmente, sem perda de tempo.
+        </p>
+
+        <div class="megas">
+            <a class="planos p1" href="">
+                <img class="imgMega" src="img/10mega.png" onMouseOver="this.src='img/10megaHover.png'"
+                     onMouseOut="this.src='img/10mega.png'">
+            </a>
+
+            <a class="planos p2" href="">
+                <img class="imgMega" src="img/20mega.png" onMouseOver="this.src='img/20megaHover.png'"
+                     onMouseOut="this.src='img/20mega.png'">
+            </a>
+
+            <a class="planos ultimo" href="">
+                <img class="imgMega" src="img/35mega.png" onMouseOver="this.src='img/35megaHover.png'"
+                     onMouseOut="this.src='img/35mega.png'">
+            </a>
+        </div>
+
+        <div class="col-lg-12 divisao2"></div>
+
+        <div class="planosEspeciais">
+            <div id="inline">
+                <p class="titleAzul">Planos Especiais</p>
+                <img id="linha" src="img/linha.png" />
+            </div>
+
+            <div class="megas">
+                <a class="planosEspeciais primeiro" href="">
+                    <img class="imgMega" src="img/50mega.png" >
+                </a>
+
+                <a class="planosEspeciais" href="">
+                    <img class="imgMega" src="img/100mega.png" >
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
