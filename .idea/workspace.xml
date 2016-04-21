@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c59b657b-dea5-4ca9-aebb-bd4753ded131" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/quemSomos.jpg" afterPath="$PROJECT_DIR$/img/quemSomos.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/quemSomos2-1.jpg" afterPath="$PROJECT_DIR$/img/quemSomos2-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/home.php" afterPath="$PROJECT_DIR$/Pages/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/topo.php" afterPath="$PROJECT_DIR$/Pages/topo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/planos.css" afterPath="$PROJECT_DIR$/css/planos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/quemSomos.css" afterPath="$PROJECT_DIR$/css/quemSomos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/topo.css" afterPath="$PROJECT_DIR$/css/topo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/topo.js" afterPath="$PROJECT_DIR$/js/topo.js" />
     </list>
     <ignored path="curio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="topo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/topo.js">
+      <file leaf-file-name="topo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/topo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="121" column="2" selection-start-line="121" selection-start-column="2" selection-end-line="121" selection-end-column="2" />
+            <state vertical-scroll-proportion="-16.076923">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -45,49 +37,11 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5614251">
-              <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quemSomos.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/quemSomos.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="155" column="22" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="planos.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/planos.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/topo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.5384614">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topo.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/topo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="293" column="9" selection-start-line="293" selection-start-column="4" selection-end-line="293" selection-end-column="9" />
-              <folding />
+            <state vertical-scroll-proportion="-3.376038">
+              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +72,8 @@
         <option value="$PROJECT_DIR$/Pages/topo.php" />
         <option value="$PROJECT_DIR$/css/topo.css" />
         <option value="$PROJECT_DIR$/js/topo.js" />
-        <option value="$PROJECT_DIR$/Pages/home.php" />
         <option value="$PROJECT_DIR$/css/quemSomos.css" />
+        <option value="$PROJECT_DIR$/Pages/home.php" />
       </list>
     </option>
   </component>
@@ -329,7 +283,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -463,7 +419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/topo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
+        <state vertical-scroll-proportion="0.46381968">
           <caret line="293" column="9" selection-start-line="293" selection-start-column="4" selection-end-line="293" selection-end-column="9" />
           <folding />
         </state>
@@ -493,14 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/topo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.5384614">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -525,11 +473,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/topo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.076923">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5614251">
-          <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-3.376038">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

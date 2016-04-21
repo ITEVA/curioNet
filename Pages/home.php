@@ -15,45 +15,49 @@
 </head>
 <body>
 
-<!------------------------------HOME---------------------------------------->
+<!------------------------------ INICIO BANNER ------------------------------>
+
 <div class="tudo">
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img class="slide1" src="img/slide1.jpg" >
-                <img class="slide3" src="img/slide1-1.jpg" >
-                <img class="slide2" src="img/slide4.jpg" >
-            </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="slide1" src="img/slide1.jpg" >
+                    <img class="slide3" src="img/slide1-1.jpg" >
+                    <img class="slide2" src="img/slide4.jpg" >
+                </div>
 
-            <div class="item">
-                <img class="slide1" src="img/slide1.jpg">
-                <img class="slide3" src="img/slide1-1.jpg" >
-                <img class="slide2" src="img/slide4.jpg" >
-            </div>
+                <div class="item">
+                    <img class="slide1" src="img/slide1.jpg">
+                    <img class="slide3" src="img/slide1-1.jpg" >
+                    <img class="slide2" src="img/slide4.jpg" >
+                </div>
 
-            <div class="item">
-                <img class="slide1" src="img/slide1.jpg">
-                <img class="slide3" src="img/slide1-1.jpg" >
-                <img class="slide2" src="img/slide4.jpg" >
-            </div>
+                <div class="item">
+                    <img class="slide1" src="img/slide1.jpg">
+                    <img class="slide3" src="img/slide1-1.jpg" >
+                    <img class="slide2" src="img/slide4.jpg" >
+                </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <img class="seta1" href="#myCarousel" role="button" data-slide="prev" src="img/seta-left.png"/>
+
+        <img class="seta2" href="#myCarousel" role="button" data-slide="next" src="img/seta-right.png"/>
     </div>
-
-    <!-- Left and right controls -->
-    <img class="seta1" href="#myCarousel" role="button" data-slide="prev" src="img/seta-left.png"/>
-
-    <img class="seta2" href="#myCarousel" role="button" data-slide="next" src="img/seta-right.png"/>
 </div>
-</div>
+<!------------------------------ FIM BANNER ------------------------------>
+
 <div class="col-lg-12 divisao1"></div>
 
+<!------------------------------ INICIO HOME ------------------------------>
 <div class="col-lg-12 icones">
     <div class="box">
             <div class="icons">
@@ -107,7 +111,7 @@
                 </a>
             </div>
     </div>
-<!-------------BOX2---------------->
+    <!-------------BOX2---------------->
     <div class="boxResponsive">
         <div id="bloco1">
             <div class="icons">
@@ -152,55 +156,52 @@
             </div>
         </div>
     </div>
-
 </div>
-
-<!------------------------------/HOME---------------------------------------->
+<!------------------------------ FIM HOME ------------------------------>
 
 <div class="col-lg-12 divisoria"></div>
 
-<!------------------------------QUEM_SOMOS---------------------------------------->
-<div class="quemSomos">
-    <img class="imgPrincipal" src="img/quemSomos.jpg"/>
+<!------------------------------QUEM_SOMOS------------------------------>
 
-    <img class="imgPrincipal2" src="img/quemSomos2.jpg"/>
-    <img class="imgPrincipal2-1" src="img/quemSomos2-1.jpg"/>
-    <img class="imgPrincipal2-2" src="img/quemSomos2-2.jpg"/>
-    <div id="btnFull">
-        <div id="botao">
-            <button class="btnPlanos"><a id="linkBotao" href="#planos"><p>CONHEÇA NOSSOS SERVIÇOS</p></a></button>
+<div style="padding: 0;" class="col-lg-12">
+    <div id="quemSomos" class="quemSomos">
+        <img class="imgPrincipal" src="img/quemSomos.jpg"/>
+        <img class="imgPrincipal2" src="img/quemSomos2.jpg"/>
+        <img class="imgPrincipal2-1" src="img/quemSomos2-1.jpg"/>
+        <img class="imgPrincipal2-2" src="img/quemSomos2-2.jpg"/>
+        <div id="btnFull">
+            <div id="botao">
+                <button class="btnPlanos"><a id="linkBotao" href="#planos"><p>CONHEÇA NOSSOS SERVIÇOS</p></a></button>
+            </div>
         </div>
-    </div>
+        <div class="col-lg-12 textoInformativo">
+            <div class="textoBox">
+                <p id="title">SOBRE A CNT, CURIÓ NET TELECOM</p>
+                <p id="historia">
+                    A Curió Net foi fundada em março de 2007, desde
+                    então vem atuando no mercado de internet,
+                    sempre visando atender seus clientes com
+                    prontidão e rapidez. A Curió Net tem como
+                    parceira a Wirelink Telecom, que vem fornecendo
+                    link e tecnologias de ponta.  Nosso Backhaul é
+                    formado de fibra óptica, assim garantindo 100%
+                    do nosso serviço e total satisfação dos nossos
+                    clientes.
+                </p>
+            </div>
 
-    <div id="quemSomos"></div>
-    <div class="col-lg-12 textoInformativo">
-        <div class="textoBox">
-            <p id="title">SOBRE A CNT, CURIÓ NET TELECOM</p>
-            <p id="historia">
-                A Curió Net foi fundada em março de 2007, desde
-                então vem atuando no mercado de internet,
-                sempre visando atender seus clientes com
-                prontidão e rapidez. A Curió Net tem como
-                parceira a Wirelink Telecom, que vem fornecendo
-                link e tecnologias de ponta.  Nosso Backhaul é
-                formado de fibra óptica, assim garantindo 100%
-                do nosso serviço e total satisfação dos nossos
-                clientes.
-            </p>
-        </div>
-
-        <div id="botao">
-            <button class="btnPlanos"><a id="linkBotao" href="#planos"><p>CONHEÇA NOSSOS SERVIÇOS</p></a></button>
+            <div id="botao">
+                <button class="btnPlanos"><a id="linkBotao" href="#planos"><p>CONHEÇA NOSSOS SERVIÇOS</p></a></button>
+            </div>
         </div>
     </div>
 </div>
+<!------------------------------ FIM QUEM SOMOS------------------------------>
 
-<!------------------------------PLANOS---------------------------------------->
-
-<div id="planos"></div>
+<!------------------------------ INICIO PLANOS ------------------------------>
 
 <div class="col-lg-12 planos">
-    <div class="textosPlanos">
+    <div id="planos" class="textosPlanos">
         <p class="titleAzul">INTERNET PARA SUA CASA</p>
 
         <p id="texto">
@@ -246,8 +247,11 @@
         </div>
     </div>
 </div>
+<!------------------------------ FIM PLANOS ------------------------------>
 
 <div class="col-lg-12 divisoria"></div>
+
+<!------------------------------ INICIO FALE CONOSCO ------------------------------>
 
 <div class="col-lg-12 divInferior">
     <div class="info">
@@ -261,6 +265,7 @@
         </div>
     </div>
 </div>
+<!------------------------------ FIM FALE CONOSCO ------------------------------>
 
 </body>
 </html>
