@@ -163,7 +163,6 @@ li.menu{
     list-style: none;
 }
 
-
 /*---------------------------------*/
 
 .entire-menu {
@@ -283,16 +282,23 @@ a#link1{
     margin-top: 10%;
 }
 
-div.divisoria{
-    height: 100px;
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
+div.fixo {
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    top: 0;
+    display: inline-flex;
+    margin: 0 auto;
+    width: 61%;
+    right: 30.5%;
+    left: 19.5%;
 }
 
-div.fixo {
-    right: auto;
-    left: auto;
+div.divisao {
+    position: relative;
+    height: 107px;
+    visibility: hidden;
+    display: none;
 }
 
 /*---------------------------------*/
@@ -458,7 +464,6 @@ div.fixo {
         background-color: #3E6398;
         color: #fff;
         z-index: 999;
-        margin-top: 4%;
         padding: 12px 35px 30px 15px;
     }
 

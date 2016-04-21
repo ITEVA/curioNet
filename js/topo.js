@@ -7,18 +7,13 @@ $(function() {
         $('#change-hamburguer').click();
 
     });
-});
 
-$(function(){
     $(".linkRola").click(function (event) {
         event.preventDefault();
         var idElemento = $(this).attr("href");
         var deslocamento = $(idElemento).offset().top;
         $('html, body').animate({ scrollTop: deslocamento }, 1000);
     });
-});
-
-$(document).ready(function() {
 
     $('a[class=hamburguer]').click(function(e) {
 
@@ -31,92 +26,66 @@ $(document).ready(function() {
         $(id).fadeIn(3000);
 
     });
-});
 
-
-$(function(){
-    $("ul li#liMenu2").click(function (event) {
+    $("ul li.itemMenu").click(function (event) {
         event.preventDefault();
-        document.getElementById("liMenu2").className = "active";
-        document.getElementById("liMenu1").className = "";
-        document.getElementById("liMenu3").className = "";
-        document.getElementById("liMenu4").className = "";
-        document.getElementById("liMenu5").className = "";
     });
-});
 
-$(function(){
-    $("ul li#liMenu1").click(function (event) {
-        event.preventDefault();
-        document.getElementById("liMenu1").className = "active";
-        document.getElementById("liMenu2").className = "";
-        document.getElementById("liMenu3").className = "";
-        document.getElementById("liMenu4").className = "";
-        document.getElementById("liMenu5").className = "";
+    $(document).scroll(function(){
+        if($(this).scrollTop() >= 0 && $(this).scrollTop() < 1066){
+            ativar("liMenu1");
+        }
+        else if($(this).scrollTop() >= 1066 && $(this).scrollTop() < 1735){
+            ativar("liMenu2");
+        }
+        else if($(this).scrollTop() >= 1735 && $(this).scrollTop() < 2500){
+            ativar("liMenu3");
+        }
+        else {
+            ativar("liMenu4");
+        }
     });
-});
 
-$(function(){
-    $("ul li#liMenu3").click(function (event) {
-        event.preventDefault();
-        document.getElementById("liMenu3").className = "active";
-        document.getElementById("liMenu1").className = "";
-        document.getElementById("liMenu2").className = "";
-        document.getElementById("liMenu4").className = "";
-        document.getElementById("liMenu5").className = "";
-    });
-});
-
-$(function(){
-    $("ul li#liMenu4").click(function (event) {
-        event.preventDefault();
-        document.getElementById("liMenu4").className = "active";
-        document.getElementById("liMenu1").className = "";
-        document.getElementById("liMenu3").className = "";
-        document.getElementById("liMenu2").className = "";
-        document.getElementById("liMenu5").className = "";
-    });
-});
-
-$(function(){
-    $("ul li#liMenu5").click(function (event) {
-        event.preventDefault();
-        document.getElementById("liMenu5").className = "active";
-        document.getElementById("liMenu1").className = "";
-        document.getElementById("liMenu3").className = "";
-        document.getElementById("liMenu4").className = "";
-        document.getElementById("liMenu2").className = "";
-    });
-});
-/*
-$(function () {
     //incluso essa variavel para setar atributos do css depois
     var elemento = $('.fixo');
     var elemento2 = $('.divisoria');
 
+    var posicaoMenu = $("#fixo").offset().top;
+    var posicaoMenuM = $("#menuToggle").offset().top;
+
+    $(window).resize(function() {
+        posicaoMenu = $("#fixo").offset().top;
+        posicaoMenuM = $("#menuToggle").offset().top;
+    });
+
     $(window).scroll(function () {
         //distancia que o scroll devera rolar para aparecer o box da div
-        if ($(this).scrollTop() > 90) {
-            //bloco incluso para setar o css
-            elemento.css({
-                'position': 'fixed',
-                'top': '0px',
-                'z-index': '1000',
-                'background-color': '#fff',
-                'width': '100%'
-            });
+        if ($(this).scrollTop() >= posicaoMenu) {
+            $("#fixo").addClass('fixo');
+            $(".divisao").css('visibility','visibility').css('display','block');
+        }
+        else {
+            $("#fixo").removeClass('fixo');
+            $(".divisao").css('visibility','hidden').css('display','none');
+        }
 
-            elemento1.css({
-                'visibility': 'visibility'
-            });
-
-            $('.fixo').fadeIn();
-        }else {
-            //bloco incluso para setar o css
-            elemento.css({
-                'position': 'relative'
-            });
+        if ($(this).scrollTop() >= posicaoMenuM && posicaoMenuM != 0) {
+            $("#menuToggle").css('position','fixed').css('top','0px').css('margin-top','0px');
+            //$(".tudo").css('margin-top','30px');
+        }
+        else{
+            $("#menuToggle").css('position','relative').css('top','none');
+            $(".tudo").css('margin-top','0');
         }
     });
+
+    function ativar(link){
+        $('.itemMenu').each(function(){
+            $(this).removeClass('active')
+                   .addClass('desactive');
+        });
+
+        $("#" + link).removeClass('desactive')
+                     .addClass("active");
+    }
 });
-*/

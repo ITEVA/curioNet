@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/topo.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/carrousel.css">
     <link rel="stylesheet" href="css/quemSomos.css">
     <link rel="stylesheet" href="css/planos.css">
     <link rel="stylesheet" href="css/contrato.css">
+    <link rel="stylesheet" href="css/topo.css">
     
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src="js/prefixfree.min.js"></script>
     <script src="js/jquery.maskedinput.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/contrato.js"></script>
     <script type="text/javascript" src="js/topo.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/topo.js"></script>
+    <script src="js/prefixfree.min.js"></script>
 
 
     <title>Curió</title>
@@ -39,21 +40,20 @@
     <div id="home"></div>
 
     <div class="col-lg-12 barraInferior">
-            <div class="col-lg-6 box2 fixo">
-                <div class="logo">
-                    <a href="#home"><img id="logo" src="img/logo.jpg"></a>
-                </div>
-                <div class="menu">
-                    <ul class="nav nav-pills">
-                        <li id="liMenu1" role="presentation" class="active"><a class="linkRola" href="#home">Home</a></li>
-                        <li id="liMenu2" role="presentation"><a class="linkRola" href="#quemSomos">Quem somos</a></li>
-                        <li id="liMenu3" role="presentation"><a class="linkRola" href="#planos">Planos</a></li>
-                        <li id="liMenu4" role="presentation"><a class="linkRola" href="#contato">Contatos</a></li>
-                        <li id="liMenu5" role="presentation"><a class="linkRola" target="_blank" href="http://www.speedtest.net/pt/">Teste de Velocidade</a></li>
-                    </ul>
-                </div>
+        <div id="fixo" class="col-lg-6 box2">
+            <div class="logo">
+                <a href="#home"><img id="logo" src="img/logo.jpg"></a>
             </div>
-            <div class="divisoria"></div>
+            <div class="menu">
+                <ul class="nav nav-pills">
+                    <li id="liMenu1" role="presentation" class="itemMenu active"><a class="linkRola" href="#home">Home</a></li>
+                    <li id="liMenu2" role="presentation" class="itemMenu"><a class="linkRola" href="#quemSomos">Quem somos</a></li>
+                    <li id="liMenu3" role="presentation" class="itemMenu"><a class="linkRola" href="#planos">Planos</a></li>
+                    <li id="liMenu4" role="presentation" class="itemMenu"><a class="linkRola" href="#contato">Contatos</a></li>
+                    <li id="liMenu5" role="presentation" class="itemMenu"><a class="linkRola" target="_blank" href="http://www.speedtest.net/pt/">Teste de Velocidade</a></li>
+                </ul>
+            </div>
+        </div>
 
         <div id="menuToggle">
             <div class="entire-menu">
@@ -85,6 +85,7 @@
         </div>
     </div>
 </div>
+<div class="divisao col-lg-12"></div>
 
 <script src="js/menu.js"></script>
 </body>
