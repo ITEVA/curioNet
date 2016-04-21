@@ -7,8 +7,10 @@ include_once('Classes/Config.inc.php');
 $url = Url::getParametros();
 
 include_once("Pages/topo.php");
-
-include_once("Pages/home.php");
-
-
+if (file_exists("Pages/{$url[0]}.php")) {
+    include_once("Pages/{$url[0]}.php");
+} else {
+    include_once("Pages/erro404.php");
+}
+//include_once("Pages/home.php");
 include_once("Pages/rodape.php");

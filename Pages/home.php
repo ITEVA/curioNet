@@ -3,13 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/carrousel.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/quemSomos.css">
-    <link rel="stylesheet" href="css/planos.css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <title>Curió</title>
 </head>
@@ -211,17 +204,17 @@
         </p>
 
         <div class="megas">
-            <a class="planos p1" href="">
+            <a class="planos p1" href="contrato">
                 <img class="imgMega" src="img/10mega.png" onMouseOver="this.src='img/10megaHover.png'"
                      onMouseOut="this.src='img/10mega.png'">
             </a>
-
-            <a class="planos p2" href="">
+            
+            <a class="planos p2" href="contrato">
                 <img class="imgMega" src="img/20mega.png" onMouseOver="this.src='img/20megaHover.png'"
                      onMouseOut="this.src='img/20mega.png'">
             </a>
 
-            <a class="planos ultimo" href="">
+            <a class="planos ultimo" href="contrato">
                 <img class="imgMega" src="img/35mega.png" onMouseOver="this.src='img/35megaHover.png'"
                      onMouseOut="this.src='img/35mega.png'">
             </a>
@@ -236,36 +229,21 @@
             </div>
 
             <div class="megas">
-                <a class="planosEspeciais primeiro" href="">
+                <a class="planosEspeciais primeiro" href="contrato">
                     <img class="imgMega" src="img/50mega.png" >
                 </a>
 
-                <a class="planosEspeciais" href="">
+                <a class="planosEspeciais" href="contrato">
                     <img class="imgMega" src="img/100mega.png" >
                 </a>
             </div>
         </div>
     </div>
 </div>
+
 <!------------------------------ FIM PLANOS ------------------------------>
 
 <div class="col-lg-12 divisoria"></div>
-
-<!------------------------------ INICIO FALE CONOSCO ------------------------------>
-
-<div class="col-lg-12 divInferior">
-    <div class="info">
-        <h1 id="title">Fale conosco</h1>
-        <p>Entre em contato conosco agora mesmo e conheça melhor as soluções da Curió para melhor atendê-los!</p>
-
-        <div class="contato">
-            <div class="boxBranca">
-                <p>(85) 3476-3670 - FIXO | (85) 8711-4447</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!------------------------------ FIM FALE CONOSCO ------------------------------>
 
 </body>
 </html>

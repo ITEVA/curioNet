@@ -6,10 +6,19 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/topo.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/carrousel.css">
+    <link rel="stylesheet" href="css/quemSomos.css">
+    <link rel="stylesheet" href="css/planos.css">
+    <link rel="stylesheet" href="css/contrato.css">
+    
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/topo.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src="js/prefixfree.min.js"></script>
+    <script src="JS/jquery.maskedinput.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/contrato.js"></script>
+    <script type="text/javascript" src="js/topo.js"></script>
 
 
     <title>Curió</title>
