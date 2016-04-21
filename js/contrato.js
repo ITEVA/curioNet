@@ -17,7 +17,7 @@ $(document).ready(function(){
 
         $.ajax({
         method: "POST",
-        url: "Emails/emailContratoConnect.php",
+        url: "Emails/emailContratoCurio.php",
         data: {nome:$('#nome').val(), email:$('#email').val(),
               celular:$('#celular').val(), telefone:$('#telefone').val(),
               rua:$('#rua').val(), bairro:$('#sel1').val(),

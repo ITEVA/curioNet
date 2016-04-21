@@ -204,17 +204,17 @@
         </p>
 
         <div class="megas">
-            <a class="planos p1" href="contrato">
+            <a class="planos p1" data-toggle="modal" data-target="#contrato" href="">
                 <img class="imgMega" src="img/10mega.png" onMouseOver="this.src='img/10megaHover.png'"
                      onMouseOut="this.src='img/10mega.png'">
             </a>
-            
-            <a class="planos p2" href="contrato">
+
+            <a class="planos p2" data-toggle="modal" data-target="#contrato" href="">
                 <img class="imgMega" src="img/20mega.png" onMouseOver="this.src='img/20megaHover.png'"
                      onMouseOut="this.src='img/20mega.png'">
             </a>
 
-            <a class="planos ultimo" href="contrato">
+            <a class="planos ultimo" data-toggle="modal" data-target="#contrato" href="">
                 <img class="imgMega" src="img/35mega.png" onMouseOver="this.src='img/35megaHover.png'"
                      onMouseOut="this.src='img/35mega.png'">
             </a>
@@ -229,17 +229,88 @@
             </div>
 
             <div class="megas">
-                <a class="planosEspeciais primeiro" href="contrato">
+                <a class="planosEspeciais primeiro" data-toggle="modal" data-target="#contrato" href="">
                     <img class="imgMega" src="img/50mega.png" >
                 </a>
 
-                <a class="planosEspeciais" href="contrato">
+                <a class="planosEspeciais" data-toggle="modal" data-target="#contrato" href="">
                     <img class="imgMega" src="img/100mega.png" >
                 </a>
             </div>
         </div>
     </div>
 </div>
+
+
+<!----------------------------- INICIO MODAL ------------------------------>
+
+<div class="modal fade" id="contrato" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Forneça seus dados para receber um orçamento</h4>
+                <h6 class="modal-title" id="myModalLabel">Um e-mail será enviado em menos de um minuto!</h6>
+            </div>
+            <form id="formContrato" method="post">
+                <div class="modal-body">
+                    <div class="alert alert-success alert-dismissible" id="emailSucesso" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>E-mail enviado com sucesso!</strong>
+                    </div>
+                    <ul class="row">
+                        <li class="col-xs-6">
+                            <input class="form-control" id="nome" onkeypress="return letras()" type="text" placeholder="Nome Completo" name="nome" required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control" id="email" type="email" placeholder="E-mail" name="email" required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control" id="celular" type="tel" placeholder="Celular" name="celular" required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control" id="telefone"  type="tel" placeholder="Telefone" name="telefone"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control" id="rua" type="text" onkeypress="return letras()" placeholder="Rua" name="rua" required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <select required id="sel1" class="form-control" name="bairro">
+                                <option value="">Selecione seu bairro</option>
+                                <option id="lc" value="Curió">Curió</option>
+                                <option value="Lagoa Redonda">Lagoa Redonda</option>
+                                <option value="Itambé">Itambé</option>
+                                <option value="Palmeirinha">Palmeirinha</option>
+                                <option value="José de Alencar">José de Alencar</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control numero" onkeypress="return numeros()" id="numero" type="text" placeholder="Número" name="numero" required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control complemento" type="text" placeholder="Complemento" id="complemento" name="complemento"/>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="modal-footer">
+                    <input type="submit"  class="botao" id="enviar" value="Enviar" name="enviar"/>
+                    <input type="reset"  class="botao" id="limpar" value="Limpar"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!----------------------------- FIM MODAL ------------------------------>
 
 <!------------------------------ FIM PLANOS ------------------------------>
 
