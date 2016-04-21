@@ -88,3 +88,35 @@ $(function(){
         document.getElementById("liMenu2").className = "";
     });
 });
+/*
+$(function () {
+    //incluso essa variavel para setar atributos do css depois
+    var elemento = $('.fixo');
+    var elemento2 = $('.divisoria');
+
+    $(window).scroll(function () {
+        //distancia que o scroll devera rolar para aparecer o box da div
+        if ($(this).scrollTop() > 90) {
+            //bloco incluso para setar o css
+            elemento.css({
+                'position': 'fixed',
+                'top': '0px',
+                'z-index': '1000',
+                'background-color': '#fff',
+                'width': '100%'
+            });
+
+            elemento1.css({
+                'visibility': 'visibility'
+            });
+
+            $('.fixo').fadeIn();
+        }else {
+            //bloco incluso para setar o css
+            elemento.css({
+                'position': 'relative'
+            });
+        }
+    });
+});
+*/

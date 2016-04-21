@@ -150,18 +150,6 @@
                     </div>
                 </a>
             </div>
-
-            <div class="icons iconFinal">
-                <a class="link" href="#contato">
-                    <img class="imgIcons" src="img/iconContato.jpg">
-                    <div class="texto">
-                        <p class="title">Fale conosco!</p>
-                        <p class="info">Informe-se, tire dúvidas, dê sugestões
-                            e contrate nossos serviços.
-                        </p>
-                    </div>
-                </a>
-            </div>
         </div>
     </div>
 
@@ -173,9 +161,8 @@
 
 <!------------------------------QUEM_SOMOS---------------------------------------->
 <div class="quemSomos">
-
     <img class="imgPrincipal" src="img/quemSomos.jpg"/>
-    <div id="quemSomos"></div>
+
     <img class="imgPrincipal2" src="img/quemSomos2.jpg"/>
     <img class="imgPrincipal2-1" src="img/quemSomos2-1.jpg"/>
     <img class="imgPrincipal2-2" src="img/quemSomos2-2.jpg"/>
@@ -185,6 +172,7 @@
         </div>
     </div>
 
+    <div id="quemSomos"></div>
     <div class="col-lg-12 textoInformativo">
         <div class="textoBox">
             <p id="title">SOBRE A CNT, CURIÓ NET TELECOM</p>
@@ -205,24 +193,7 @@
             <button class="btnPlanos"><a id="linkBotao" href="#planos"><p>CONHEÇA NOSSOS SERVIÇOS</p></a></button>
         </div>
     </div>
-
-    <div class="col-lg-12 divInferior">
-        <div class="info">
-            <h1 id="title">Fale conosco</h1>
-            <p>Entre em contato conosco agora mesmo e conheça melhor as soluções da Curió para melhor atendê-los!</p>
-
-            <div class="contato">
-                <div class="boxBranca">
-                    <p>(85) 3476-3670 - FIXO | (85) 8711-4447</p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
-
-<!------------------------------/QUEM_SOMOS---------------------------------------->
-
-<div class="col-lg-12 divisoria"></div>
 
 <!------------------------------PLANOS---------------------------------------->
 
@@ -274,7 +245,21 @@
             </div>
         </div>
     </div>
+</div>
 
+<div class="col-lg-12 divisoria"></div>
+
+<div class="col-lg-12 divInferior">
+    <div class="info">
+        <h1 id="title">Fale conosco</h1>
+        <p>Entre em contato conosco agora mesmo e conheça melhor as soluções da Curió para melhor atendê-los!</p>
+
+        <div class="contato">
+            <div class="boxBranca">
+                <p>(85) 3476-3670 - FIXO | (85) 8711-4447</p>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>

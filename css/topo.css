@@ -119,7 +119,6 @@ div#box {
     z-index: 99999;
 }
 
-
 #nav-toggle {
     cursor: pointer;
     padding: 10px 35px 16px 0px;
@@ -283,6 +282,19 @@ div#links{
 a#link1{
     margin-top: 10%;
 }
+
+div.divisoria{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+div.fixo {
+    right: auto;
+    left: auto;
+}
+
 /*---------------------------------*/
 
 
