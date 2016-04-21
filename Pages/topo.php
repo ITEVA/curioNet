@@ -16,7 +16,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src="js/prefixfree.min.js"></script>
-    <script src="JS/jquery.maskedinput.js" type="text/javascript"></script>
+    <script src="js/jquery.maskedinput.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/contrato.js"></script>
     <script type="text/javascript" src="js/topo.js"></script>
 
