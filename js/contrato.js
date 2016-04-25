@@ -5,16 +5,7 @@ $(document).ready(function(){
     
     $("#formContrato").submit(function(e){
         e.preventDefault();
-        /*$.ajax({
-        method: "POST",
-        url: "Emails/emailContratoCliente.php",
-        data: {nome:$('#nome').val(), email:$('#email').val(),
-              celular:$('#celular').val(), telefone:$('#telefone').val(),
-              rua:$('#rua').val(), bairro:$('#sel1').val(),
-              numero:$('#numero').val(), complemento:$('#complemento').val()}
         
-        }).done(function( ) {
-        });*/
 
         $.ajax({
         method: "POST",
@@ -24,8 +15,18 @@ $(document).ready(function(){
               rua:$('#rua').val(), bairro:$('#sel1').val(),
               numero:$('#numero').val(), complemento:$('#complemento').val()}
         
-        }).done(function(result) {
-            alert(result);
+        }).done(function() {
+        });
+        
+        $.ajax({
+        method: "POST",
+        url: "Emails/emailContratoCliente.php",
+        data: {nome:$('#nome').val(), email:$('#email').val(),
+              celular:$('#celular').val(), telefone:$('#telefone').val(),
+              rua:$('#rua').val(), bairro:$('#sel1').val(),
+              numero:$('#numero').val(), complemento:$('#complemento').val()}
+        
+        }).done(function() {
         });
 
         $('div#emailSucesso').css("display", "block");
@@ -33,7 +34,7 @@ $(document).ready(function(){
         setTimeout(
             function(){ 
                 location.reload();
-            },3000
+            },7000
         ); 
 
         return false;

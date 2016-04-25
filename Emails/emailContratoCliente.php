@@ -1,17 +1,1 @@
-<?php
-
-/* Inclui página de enviar email */
-require("EnviarEmail.php");
-
-/**
-* Inclui classes de envio de email
-*/
-require_once('../Classes/mail/class.phpmailer.php');
-require_once('../Classes/mail/class.smtp.php');
-
-$mensagem2 = "<div>"
-        . "<img src='cid:connect'>"
-        . "</div>";
-$anexo = '../planosConnect.pdf';
-sendMail('Planos Disponíveis - Connect', $mensagem2, $_POST['email'], $_POST['nome'], NULL, NULL, $anexo, '../Images/emailContratoCliente.jpg');
-?>
+<?php/* Inclui página de enviar email */require("EnviarEmail.php");/*** Inclui classes de envio de email*/require_once('../Classes/mail/class.phpmailer.php');require_once('../Classes/mail/class.smtp.php');$mensagem2 = "<body style='background-color: #d4d4d4;'>                <div style='display: block; position:absolute; max-width: 40%; width: auto;  min-height: 390px; border: 2px solid #2c3f70; background-color: #fff; padding: 1.5%;'>                    <div style='display: block; position: relative; float: left; max-width: 60%; width: auto; height: 60px; left: 0.5%; top: 1%;'>                        <img src='cid:connect'/>                    </div>                    <div style='display: block; position: absolute; font-size: 14pt; top: 120px; text-align: left;'>"                        ."</br>Olá ".$_POST['nome'].",</br>"                        ."</br>Segue em anexo um arquivo com os planos e preços oferecidos pela Curió Net Telecom.</br>"                        ."</br>Para obter mais informações entre em contato conosco: </br>(85) 3476-3670 - FIXO | (85) 8711-4447 | contato@curionet.com.br</br>"                        ."</br>Att.</br>CNT - Curió Net Telecom."                    ."</div>"                ."</div>"            ."</body>";$anexo = '../curioPlanos.pdf';sendMail('Planos - CNT', $mensagem2, $_POST['email'], $_POST['nome'], NULL, NULL, $anexo, '../img/logoEmail.jpg');?>
