@@ -3,8 +3,9 @@ $(document).ready(function(){
     $("#telefone").mask("(99) 9999-9999");
     $("#celular").mask("(99) 99999-9999");
     
-    $("#formContrato").submit(function(){
-        $.ajax({
+    $("#formContrato").submit(function(e){
+        e.preventDefault();
+        /*$.ajax({
         method: "POST",
         url: "Emails/emailContratoCliente.php",
         data: {nome:$('#nome').val(), email:$('#email').val(),
@@ -13,7 +14,7 @@ $(document).ready(function(){
               numero:$('#numero').val(), complemento:$('#complemento').val()}
         
         }).done(function( ) {
-        });
+        });*/
 
         $.ajax({
         method: "POST",
@@ -23,7 +24,8 @@ $(document).ready(function(){
               rua:$('#rua').val(), bairro:$('#sel1').val(),
               numero:$('#numero').val(), complemento:$('#complemento').val()}
         
-        }).done(function() {
+        }).done(function(result) {
+            alert(result);
         });
 
         $('div#emailSucesso').css("display", "block");

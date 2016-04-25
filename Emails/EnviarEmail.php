@@ -9,10 +9,11 @@
         $mail->CharSet = "UTF-8"; // Charset da mensagem (opcional)
         
         /* Protocolo da conexão */
-        //$mail->SMTPSecure = "ssl";
-
-        $mail->Host = 'gmail.com'; //Servidor de envio
-        $mail->Port = 25 ; //Porta de envio
+        $mail->SMTPDebug = 4; 
+        $mail->SMTPSecure = "ssl";
+        
+        $mail->Host = 'smtp.gmail.com'; //Servidor de envio
+        $mail->Port = 465 ; //Porta de envio
         $mail->Username = 'josinaldosb@gmail.com'; //email para smtp autenticado
         $mail->Password = 'jo22sb11'; //seleciona a porta de envio
 
@@ -34,10 +35,12 @@
         $mail->Body = $mensagem; //mensagem
         $mail->AddAddress($destino,$nomeDestino); //email e nome do destino
 
-        if($mail->Send()){
+        if($mail->Send()){           
+            echo 'deu certo pvt!';
             return true;
-        }else {
-            exit();
+        }else {           
+            echo 'deu errado!';
+            echo "<b>Informações do erro:</b> " . $mail->ErrorInfo;
             return false;
         }
     }

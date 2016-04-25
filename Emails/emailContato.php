@@ -31,5 +31,5 @@ $mensagem2 ="<body style='background-color: #d4d4d4;'>
                 </div>
             </body>"; 
 
-sendMail('Fale Conosco - Site Connect',$mensagem2,'contato@connectja.com.br','Connect - Internet Banda Larga', NULL, NULL, NULL, '../Images/logoEmail.gif');
+sendMail('Fale Conosco - Site Connect',$mensagem2,'contato@connectja.com.br','Connect - Internet Banda Larga', NULL, NULL, NULL, '../img/logoEmail.gif');
 ?>
