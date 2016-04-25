@@ -46,39 +46,6 @@ $(function() {
         }
     });
 
-    //incluso essa variavel para setar atributos do css depois
-    var elemento = $('.fixo');
-    var elemento2 = $('.divisoria');
-
-    var posicaoMenu = $("#fixo").offset().top;
-    var posicaoMenuM = $("#menuToggle").offset().top;
-
-    $(window).resize(function() {
-        posicaoMenu = $("#fixo").offset().top;
-        posicaoMenuM = $("#menuToggle").offset().top;
-    });
-
-    $(window).scroll(function () {
-        //distancia que o scroll devera rolar para aparecer o box da div
-        if ($(this).scrollTop() >= posicaoMenu) {
-            $("#fixo").addClass('fixo');
-            $(".divisao").css('visibility','visibility').css('display','block');
-        }
-        else {
-            $("#fixo").removeClass('fixo');
-            $(".divisao").css('visibility','hidden').css('display','none');
-        }
-
-        if ($(this).scrollTop() >= posicaoMenuM && posicaoMenuM != 0) {
-            $("#menuToggle").css('position','fixed').css('top','0px').css('margin-top','0px');
-            //$(".tudo").css('margin-top','30px');
-        }
-        else{
-            $("#menuToggle").css('position','relative').css('top','none');
-            $(".tudo").css('margin-top','0');
-        }
-    });
-
     function ativar(link){
         $('.itemMenu').each(function(){
             $(this).removeClass('active')
@@ -88,4 +55,36 @@ $(function() {
         $("#" + link).removeClass('desactive')
                      .addClass("active");
     }
+
+    var posicaoMenu = $("#fixo").offset().top;
+    var posicaoMenuM = $("#menuToggle").offset().top;
+    var largura  = $(window).width();
+
+    $(window).resize(function() {
+        posicaoMenu = $("#fixo").offset().top;
+        posicaoMenuM = $("#menuToggle").offset().top;
+        largura  = $(window).width();
+    });
+    $(window).scroll(function () {
+        //distancia que o scroll devera rolar para aparecer o box da div
+        if ($(this).scrollTop() >= posicaoMenu && posicaoMenuM == 0) {
+            $("#fixo").addClass('fixo');
+            $(".divisao").css('visibility','visibility').css('display','block');
+            $(".branco").css('visibility','visible');
+        }
+        else {
+            $("#fixo").removeClass('fixo');
+            $(".divisao").css('visibility','hidden').css('display','none');
+            $(".branco").css('visibility','hidden');
+        }
+
+        if ($(this).scrollTop() >= posicaoMenuM && posicaoMenuM != 0) {
+            $("#menuToggle").css('position','fixed').css('top','0px').css('margin-top','0px');
+            $(".tudo").css('margin-top','30px');
+        }
+        else{
+            $("#menuToggle").css('position','relative').css('top','none');
+            $(".tudo").css('margin-top','0');
+        }
+    });
 });
