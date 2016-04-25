@@ -18,7 +18,7 @@
         $mail->Password = 'jo22sb11'; //seleciona a porta de envio
 
         $mail->From = 'josinaldosb@gmail.com'; //remetente
-        $mail->FromName = 'Connect - Internet Banda Larga'; //nome remetente
+        $mail->FromName = 'CNT - Curió Net Telecom'; //nome remetente
 
         /* Enviar imagem */
         $mail->AddEmbeddedImage($logo, 'connect');
