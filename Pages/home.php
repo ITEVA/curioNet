@@ -120,24 +120,25 @@
         </div>
         
         <div class="icons iconFinal">
-                <a class="link" href="#contato">
-                    <img class="imgIcons" src="img/iconContato.jpg">
-                    <div class="texto">
-                        <p class="title">Fale conosco!</p>
-                        <p class="info">Entre em contato conosco pra obter informações, tirar dúvidas, dar sugestões e contratar nossos planos.</p>
-                    </div>
-                </a>
-            </div>
+            <a class="link" href="#contato">
+                <img class="imgIcons" src="img/iconContato.jpg">
+                <div class="texto">
+                    <p class="title">Fale conosco!</p>
+                    <p class="info">Entre em contato conosco pra obter informações, tirar dúvidas, dar sugestões e contratar nossos planos.</p>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
 <!------------------------------ FIM HOME ------------------------------>
 
+<div id="quemSomos" class="col-lg-12"></div>
 <div class="col-lg-12 divisoria"></div>
 
 <!------------------------------QUEM_SOMOS------------------------------>
 
 <div style="padding: 0;" class="col-lg-12">
-    <div id="quemSomos" class="quemSomos">
+    <div class="quemSomos">
         <img class="imgPrincipal" src="img/quemSomos.jpg"/>
         <img class="imgPrincipal2" src="img/quemSomos2.jpg"/>
         <img class="imgPrincipal2-1" src="img/quemSomos2-1.jpg"/>
@@ -173,8 +174,9 @@
 
 <!------------------------------ INICIO PLANOS ------------------------------>
 
+<div id="planos" class="col-lg-12"></div>
 <div class="col-lg-12 planos">
-    <div id="planos" class="textosPlanos">
+    <div class="textosPlanos">
         <p class="titleAzul">INTERNET PARA SUA CASA</p>
 
         <p id="texto">
