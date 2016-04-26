@@ -240,7 +240,7 @@ $(function() {
             }
         }
         //1000
-        else if (largura <= 1043 && largura > 983) {
+        else if (largura <= 983 && largura > 893) {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
@@ -252,7 +252,7 @@ $(function() {
             }
         }
         //910
-        else if (largura <= 1043 && largura > 983) {
+        else if (largura <= 893 && largura > 833) {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
@@ -264,7 +264,7 @@ $(function() {
             }
         }
         //850
-        else if (largura <= 1043 && largura > 983) {
+        else if (largura <= 833 && largura > 773) {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
