@@ -47,11 +47,8 @@
                 <a class="link" href="#contrate">
                     <img class="imgIcons" src="img/icon1.jpg">
                     <div class="texto">
-                        <p class="title">Quero assinar já</p>
-                        <p class="info">Preencha o formulário e
-                            entraremos em contato
-                            em menos de 24 horas.
-                        </p>
+                        <p class="title">Quero assinar</p>
+                        <p class="info">Preencha o formulário para solicitar um orçamento ou entre em contato conosco.</p>
                     </div>
                 </a>
             </div>
@@ -61,10 +58,7 @@
                     <img class="imgIcons" src="img/iconLocalizacao.jpg">
                     <div class="texto">
                         <p class="title">Nossa cobertura</p>
-                        <p class="info">Descubra onde encontrar
-                            internet de qualidade veja
-                            onde atendemos.
-                        </p>
+                        <p class="info">Descubra onde atendemos e como ter internet de qualidade</p>
                     </div>
                 </a>
             </div>
@@ -73,11 +67,8 @@
                 <a class="link" href="#planos">
                     <img class="imgIcons" src="img/iconPlanos.jpg">
                     <div class="texto">
-                        <p class="titleMaior">Os melhores planos para você</p>
-                        <p class="info">Temos planos e preços
-                            que cabem no seu bolso.
-                            É só escolher e assinar
-                        </p>
+                        <p class="titleMaior">Os melhores planos</p>
+                        <p class="info">Oferecemos internet de qualidade com preços excelentes.</p>
                     </div>
                 </a>
             </div>
@@ -87,9 +78,7 @@
                     <img class="imgIcons" src="img/iconContato.jpg">
                     <div class="texto">
                         <p class="title">Fale conosco!</p>
-                        <p class="info">Informe-se, tire dúvidas, dê sugestões
-                            e contrate nossos serviços.
-                        </p>
+                        <p class="info">Entre em contato conosco pra obter informações, tirar dúvidas, dar sugestões e contratar nossos planos.</p>
                     </div>
                 </a>
             </div>
@@ -101,11 +90,8 @@
                 <a class="link" href="#contrate">
                     <img class="imgIcons" src="img/icon1.jpg">
                     <div class="texto">
-                        <p class="title">Quero assinar já</p>
-                        <p class="info">Preencha o formulário e
-                            entraremos em contato
-                            em menos de 24 horas.
-                        </p>
+                        <p class="title">Quero assinar</p>
+                        <p class="info">Preencha o formulário para solicitar um orçamento ou entre em contato conosco.</p>
                     </div>
                 </a>
             </div>
@@ -115,10 +101,7 @@
                     <img class="imgIcons" src="img/iconLocalizacao.jpg">
                     <div class="texto">
                         <p class="title">Nossa cobertura</p>
-                        <p class="info">Descubra onde encontrar
-                            internet de qualidade veja
-                            onde atendemos.
-                        </p>
+                        <p class="info">Descubra onde atendemos e como ter internet de qualidade</p>.
                     </div>
                 </a>
             </div>
@@ -129,15 +112,22 @@
                 <a class="link" href="#planos">
                     <img class="imgIcons" src="img/iconPlanos.jpg">
                     <div class="texto">
-                        <p class="titleMaior">Os melhores planos<br/> para você</p>
-                        <p class="info">Temos planos e preços
-                            que cabem no seu bolso.
-                            É só escolher e assinar
-                        </p>
+                        <p class="titleMaior">Os melhores planos</p>
+                        <p class="info">Oferecemos internet de qualidade com preços excelentes.</p>
                     </div>
                 </a>
             </div>
         </div>
+        
+        <div class="icons iconFinal">
+                <a class="link" href="#contato">
+                    <img class="imgIcons" src="img/iconContato.jpg">
+                    <div class="texto">
+                        <p class="title">Fale conosco!</p>
+                        <p class="info">Entre em contato conosco pra obter informações, tirar dúvidas, dar sugestões e contratar nossos planos.</p>
+                    </div>
+                </a>
+            </div>
     </div>
 </div>
 <!------------------------------ FIM HOME ------------------------------>
