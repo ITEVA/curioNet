@@ -286,8 +286,9 @@ div.item img.slide2{
 	div.item img.slide3{
 		display: block;
 	}
-
-
+	div.textoBox {
+		width: 64.5%;
+	}
 	div.textoInformativo{
 		display: block;
 	}

@@ -207,17 +207,24 @@
         </p>
 
         <div class="megas">
-            <a class="planos p1" data-toggle="modal" data-target="#contrato" href="">
+            <a class="planos primeiro" id="m1" data-toggle="modal" data-target="#contrato" href="">
                 <img class="imgMega" src="img/10mega.png" onMouseOver="this.src='img/10megaHover.png'"
                      onMouseOut="this.src='img/10mega.png'">
             </a>
 
-            <a class="planos p2" data-toggle="modal" data-target="#contrato" href="">
+            <a class="planos" id="m2" data-toggle="modal" data-target="#contrato" href="">
+                <img class="imgMega" src="img/15mega.png" onMouseOver="this.src='img/15megaHover.png'"
+                     onMouseOut="this.src='img/15mega.png'">
+            </a>
+        </div>
+
+        <div class="megas">
+            <a class="planos primeiro" id="m3" data-toggle="modal" data-target="#contrato" href="">
                 <img class="imgMega" src="img/20mega.png" onMouseOver="this.src='img/20megaHover.png'"
                      onMouseOut="this.src='img/20mega.png'">
             </a>
 
-            <a class="planos ultimo" data-toggle="modal" data-target="#contrato" href="">
+            <a class="planos" id="m4" data-toggle="modal" data-target="#contrato" href="">
                 <img class="imgMega" src="img/35mega.png" onMouseOver="this.src='img/35megaHover.png'"
                      onMouseOut="this.src='img/35mega.png'">
             </a>
@@ -232,12 +239,14 @@
             </div>
 
             <div class="megas">
-                <a class="planosEspeciais primeiro" data-toggle="modal" data-target="#contrato" href="">
-                    <img class="imgMega" src="img/50mega.png">
+                <a class="planosEspeciais primeiro" id="m5" data-toggle="modal" data-target="#contrato" href="">
+                    <img class="imgMega" src="img/50mega.png" onMouseOver="this.src='img/50megaHover.png'"
+                         onMouseOut="this.src='img/50mega.png'">
                 </a>
 
-                <a class="planosEspeciais" data-toggle="modal" data-target="#contrato" href="">
-                    <img class="imgMega" src="img/100mega.png">
+                <a class="planosEspeciais" id="m6" data-toggle="modal" data-target="#contrato" href="">
+                    <img class="imgMega" src="img/100mega.png" onMouseOver="this.src='img/100megaHover.png'"
+                         onMouseOut="this.src='img/100mega.png'">
                 </a>
             </div>
         </div>
