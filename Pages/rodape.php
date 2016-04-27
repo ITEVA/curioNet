@@ -1,4 +1,4 @@
-<!------------------------------ INICIO FALE CONOSCO ------------------------------>
+<!------------------------------ INICIO FALE CONOSCO ------------------------------
 
 <div class="col-lg-12 divInferior">
     <div class="info">

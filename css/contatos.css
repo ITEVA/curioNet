@@ -1,0 +1,106 @@
+div#contatos {
+   background-color: #eaeaea;
+}
+
+div#contatos div.box {
+    width: 58%;
+    display: block;
+    margin: auto;
+}
+
+div#contatos  p.titleAzul{
+    padding:0px;
+}
+
+div#contatos  p#texto{
+    margin: 0px;
+    padding:0px;
+}
+
+div#contatos div.divMaior { 
+    padding: 0px;
+    margin-top: 0px;
+}
+
+div#contatos div#mapaContatos div.divMaior {
+    padding: 0px;
+    margin-top: 4%;
+    border: 3px solid #4470b5;
+    border-radius: 5px;
+    background-color: #eaeaea;
+}
+
+div#contatos .form-control {
+    border: 2px solid #4470b5;
+}
+
+div#contatos label {
+    margin-top: 2%;
+    color: #cb7227;
+}
+
+div#contatos input {
+    margin-bottom: 0;
+}
+
+div#contatos .btn {
+    margin-top: 3%;
+    background-color: #4470b5;
+}
+
+div#contatos div.iconSmall{
+    margin-top: 1%;
+}
+
+div#contatos div.iconSmall img{
+    width: 20px;
+}
+
+div#contatos textarea.form-control {
+    height: 150px;
+    resize: none;
+}
+
+div#formContatos {
+    margin: 4.0816% 0;
+    padding: 0px;     
+}
+
+div#mapaContatos {
+    margin: 4.0816% 0;
+}
+
+iframe#mapa {
+    display: block;
+    position: relative;
+    margin: auto; 
+    width: 100%;
+    border-radius: 5px;
+}
+
+div#contatos div.icone {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div#contatos div.txtIcone {
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+
+div#contatos div#mapaContatos div.icone {
+    width: 131px;
+}
+
+div#telefoneEmail {
+    margin-top: 2%;
+    padding: 0px;
+}
+
+div#iconeTexto {
+    display:block;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 3%;
+}

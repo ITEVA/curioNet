@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/planos.css">
     <link rel="stylesheet" href="css/topo.css">
     <link rel="stylesheet" href="css/contrato.css">
+    <link rel="stylesheet" href="css/contatos.css">
     
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/prefixfree.min.js"></script>
@@ -49,7 +50,7 @@
                     <li id="liMenu1" role="presentation" class="itemMenu active"><a class="linkRola" href="#home">Home</a></li>
                     <li id="liMenu2" role="presentation" class="itemMenu"><a class="linkRola" href="#quemSomos">Quem somos</a></li>
                     <li id="liMenu3" role="presentation" class="itemMenu"><a class="linkRola" href="#planos">Planos</a></li>
-                    <li id="liMenu4" role="presentation" class="itemMenu"><a class="linkRola" href="#contato">Contatos</a></li>
+                    <li id="liMenu4" role="presentation" class="itemMenu"><a class="linkRola" href="#contatos">Contatos</a></li>
                     <li id="liMenu5" role="presentation" class="itemMenu"><a class="linkRola" target="_blank" href="http://www.speedtest.net/pt/">Teste de Velocidade</a></li>
                 </ul>
             </div>
