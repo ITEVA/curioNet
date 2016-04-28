@@ -162,7 +162,7 @@
 
 <!------------------------------QUEM_SOMOS------------------------------>
 
-<div style="padding: 0;" class="col-lg-12">
+<div id="todoQuemSomos" class="col-lg-12">
     <div class="quemSomos">
         <img class="imgPrincipal" src="img/quemSomos.jpg"/>
         <img class="imgPrincipal2" src="img/quemSomos2.jpg"/>

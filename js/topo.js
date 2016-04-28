@@ -45,6 +45,7 @@ $(function() {
     var posicaoMenuM = $("#menuToggle").offset().top;
     var posicaoQuemSomos = $("#quemSomos").offset().top;
     var posicaoPlanos = $("#planos").offset().top;
+    var posicaoContatos = $("#contatos").offset().top;
     var largura  = $(window).width();
 
     $(window).resize(function() {
@@ -52,6 +53,7 @@ $(function() {
         posicaoMenuM = $("#menuToggle").offset().top;
         posicaoQuemSomos = $(".quemSomos").offset().top;
         posicaoPlanos = $(".planos").offset().top;
+        posicaoContatos = $("#contatos").offset().top;
         largura  = $(window).width();
     });
     $(window).scroll(function () {
@@ -151,8 +153,11 @@ $(function() {
             else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 300 && $(this).scrollTop() < posicaoContatos - 100) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 100) {
+                ativar("liMenu4");
             }
         }
         //1795

@@ -86,6 +86,11 @@ p#historia{
     text-align: justify;
 }
 
+div#todoQuemSomos {
+    padding: 0;
+    margin-bottom: -3.4%
+}
+
 /*MEDIA QUERIES*/
 @media all and (max-width: 1870px){
     button.btnPlanos{
@@ -179,6 +184,9 @@ p#historia{
     button.btnPlanos{
         padding: 10px 10px;
         font-size: 12px;
+    }
+    div#todoQuemSomos {
+        margin-bottom: 0;
     }
 }
 
