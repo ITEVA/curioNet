@@ -96,14 +96,14 @@ ol.carousel-indicators li{
 	width:20px;
 	height:20px;
 	background-color: transparent;
-	border: 4px solid #3E6398;
+	border: 4px solid #fff /*#3E6398*/;
 }
 
 .carousel-indicators .active {
 	width: 20px;
 	height: 20px;
 	margin-bottom: 2px;
-	background-color: #3E6398;
+	background-color: #fff/*#3E6398*/;
 }
 
 img.seta1 {
@@ -217,6 +217,22 @@ div.item img.slide2{
 	width: 100%;
 }
 
+div.item img.slide4{
+	display: none;
+	width: 100%;
+}
+/*div.one {
+    background-color: #3d567e;
+}
+
+div.two {
+    
+}
+
+div.three {
+    
+}*/
+
 /*MEDIA0-QUERIES*/
 
 @media all and (max-width: 1290px){
@@ -295,6 +311,14 @@ div.item img.slide2{
 }
 
 @media all and (max-width: 760px){
+        div.item img.slide3{
+		display: none;
+	}
+
+	div.item img.slide2{
+		display: block;
+	}
+    
 	div.box{
 		display: none;
 	}
@@ -375,6 +399,10 @@ div.item img.slide2{
 	}
 
 	div.item img.slide2{
+		display: none;
+	}
+        
+        div.item img.slide4{
 		display: block;
 	}
 

@@ -11,22 +11,25 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img class="slide1" src="img/slide1.jpg">
-                <img class="slide3" src="img/slide1-1.jpg">
-                <img class="slide2" src="img/slide4.jpg">
+            <div class="item active one">
+                <img class="slide1" src="img/slides/slide1.jpg">
+                <img class="slide3" src="img/slides/slide1-1.jpg">
+                <img class="slide2" src="img/slides/slide1-2.jpg">
+                <img class="slide4" src="img/slides/slide1-3.jpg">
             </div>
 
-            <div class="item">
-                <img class="slide1" src="img/slide1.jpg">
-                <img class="slide3" src="img/slide1-1.jpg">
-                <img class="slide2" src="img/slide4.jpg">
+            <div class="item two">
+                <img class="slide1" src="img/slides/slide2.jpg">
+                <img class="slide3" src="img/slides/slide2-1.jpg">
+                <img class="slide2" src="img/slides/slide2-2.jpg">
+                <img class="slide4" src="img/slides/slide2-3.jpg">
             </div>
 
-            <div class="item">
-                <img class="slide1" src="img/slide1.jpg">
-                <img class="slide3" src="img/slide1-1.jpg">
-                <img class="slide2" src="img/slide4.jpg">
+            <div class="item three">
+                <img class="slide1" src="img/slides/slide3.jpg">
+                <img class="slide3" src="img/slides/slide3-1.jpg">
+                <img class="slide2" src="img/slides/slide3-2.jpg">
+                <img class="slide4" src="img/slides/slide3-3.jpg">
             </div>
         </div>
 
@@ -230,11 +233,9 @@
             </a>
         </div>
 
-        <div class="col-lg-12 divisao2"></div>
-
         <div class="planosEspeciais">
             <div id="inline">
-                <p class="titleAzul">Planos Especiais</p>
+                <nobr><p class="titleAzul">Planos Especiais</p></nobr>
                 <img id="linha" src="img/linha.png"/>
             </div>
 
@@ -336,6 +337,107 @@
 <!------------------------------ FIM PLANOS ------------------------------>
 
 <div class="col-lg-12 divisoria"></div>
+
+<!------------------------------ INICIO CONTATOS ------------------------------>
+<div id="contatos" class="col-lg-12">
+    <div  class="box">
+        
+        <!-- Formulário de contatos -->
+        <div id="formContatos" class="col-lg-5">
+            
+            <!-- Icone | Texto -->
+            <div id="iconeTexto">
+                <div class="icone col-lg-4">
+                    <img src="img/sugestoes.png"/>
+                </div>
+
+                <div class="txtIcone col-lg-8">
+                    <p class="titleAzul">SUAS SUGESTÕES SÃO BEM VINDAS!</p>
+                    <p id="texto">
+                        Preencha corretamente todos os campos abaixo:
+                    </p>
+                </div>
+            </div>
+            <!-- FIM Icone | Texto -->
+            
+            <!-- Form -->
+            <div class="col-lg-12 divMaior">
+                <form>
+                    
+                    <label>*Nome</label>
+                    <input type="text" required class="form-control" id="exampleInputEmail1" placeholder="">
+
+                    <label>*Email</label>
+                    <input type="email" required class="form-control" id="exampleInputEmail1" placeholder="">
+                      <!--<small class="text-muted">We'll never share your email with anyone else.</small>-->
+                    
+                    <label>Endereço</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                    
+                    <label>Telefone</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                    
+                    <label>*Mensagem</label>
+                    <textarea type="text" required class="form-control" id="" placeholder=""></textarea>
+                      
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <input type="reset" class="btn botao" id="limpar" value="Limpar"/>
+                </form>
+                <label>
+                    * Campos de preenchimento obrigatório.
+                </label>
+            </div>
+        </div>
+        
+        <!-- Divisão -->
+        <div class="col-lg-1"></div>
+        
+        <!-- Mapa de contatos -->
+        <div id="mapaContatos" class="col-lg-6">
+            
+            <!-- Icone | Texto -->
+            <div id="iconeTexto">
+                <div class="icone col-lg-4">
+                    <img src="img/localizacao.png"/>
+                </div>
+
+                <div class="txtIcone col-lg-8">
+                    <p class="titleAzul">NOS ENCONTRE AQUI OU ENTRE EM CONTATO CONOSCO!</p>
+                </div>
+
+            </div>
+            <!-- FIM Icone | Texto -->
+            
+            <div class="col-lg-12 divMaior">
+                <iframe id="mapa" style="border-radius: 5px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.908207059552!2d-38.46773668462381!3d-3.829865644770789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74549beba3325%3A0xaa3c623399499767!2sCuri%C3%B3+Net!5e0!3m2!1spt-BR!2sbr!4v1461769276723" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            
+            <div id="telefoneEmail" class="col-lg-12">
+                <div class="iconSmall">
+                    <img src='img/icon1.png'/>
+                    <label>
+                        Rua Nelson Coelho, 376 Lagoa Redonda - Curió Fortaleza - CE
+                    </label>
+                </div>
+                
+                <div class="iconSmall">
+                    <img src='img/icon2.png'/>
+                    <label>
+                        (85) 3476-3670 • (85) 98711-4447 
+                    </label>
+                </div>
+                
+                <div class="iconSmall">
+                    <img src='img/icon3.png'/>
+                    <label>
+                        contato@curionet.com.br 
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------ FIM CONTATOS ------------------------------>
 
 </body>
 </html>
