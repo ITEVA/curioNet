@@ -1,5 +1,6 @@
 div#contatos {
    background-color: #fff;
+   margin-bottom: 80px;
 }
 
 div#contatos div.box {
@@ -18,7 +19,6 @@ div#contatos  p#texto{
 }
 
 div#contatos div.divMaior { 
-    padding: 0px;
     margin-top: 0px;
 }
 
@@ -79,7 +79,6 @@ iframe#mapa {
 }
 
 div#contatos div.icone {
-    padding-left: 0px;
     padding-right: 0px;
 }
 
@@ -88,8 +87,13 @@ div#contatos div.txtIcone {
     padding-right: 0px;    
 }
 
+div#contatos div#formContatos div.icone {
+    max-width: 131px;
+}
+
 div#contatos div#mapaContatos div.icone {
-    width: 131px;
+    padding-left: 0px;
+    max-width: 116px;
 }
 
 div#telefoneEmail {

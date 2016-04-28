@@ -354,8 +354,8 @@
                 <div class="icone col-lg-4">
                     <img src="img/sugestoes.jpg"/>
                 </div>
-
-                <div class="txtIcone col-lg-8">
+                
+                <div class="txtIcone">
                     <p class="titleAzul">SUAS SUGESTÕES SÃO BEM VINDAS!</p>
                     <p id="texto">
                         Preencha corretamente todos os campos abaixo:
@@ -418,21 +418,21 @@
             
             <div id="telefoneEmail" class="col-lg-12">
                 <div class="iconSmall">
-                    <img src='img/icon1.png'/>
+                    <img src='img/icon1.jpg'/>
                     <label>
                         Rua Nelson Coelho, 376 Lagoa Redonda - Curió Fortaleza - CE
                     </label>
                 </div>
                 
                 <div class="iconSmall">
-                    <img src='img/icon2.png'/>
+                    <img src='img/icon2.jpg'/>
                     <label>
                         (85) 3476-3670 • (85) 98711-4447 
                     </label>
                 </div>
                 
                 <div class="iconSmall">
-                    <img src='img/icon3.png'/>
+                    <img src='img/icon3.jpg'/>
                     <label>
                         contato@curionet.com.br 
                     </label>
