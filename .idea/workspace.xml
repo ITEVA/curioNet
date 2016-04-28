@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c59b657b-dea5-4ca9-aebb-bd4753ded131" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/100mega.png" afterPath="$PROJECT_DIR$/img/100mega.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/10mega.png" afterPath="$PROJECT_DIR$/img/10mega.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/20mega.png" afterPath="$PROJECT_DIR$/img/20mega.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/35mega.png" afterPath="$PROJECT_DIR$/img/35mega.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/50mega.png" afterPath="$PROJECT_DIR$/img/50mega.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/home.php" afterPath="$PROJECT_DIR$/Pages/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/carrousel.css" afterPath="$PROJECT_DIR$/css/carrousel.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/planos.css" afterPath="$PROJECT_DIR$/css/planos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/quemSomos.css" afterPath="$PROJECT_DIR$/css/quemSomos.css" />
     </list>
     <ignored path="curio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38270143">
-              <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+            <state vertical-scroll-proportion="-25.5">
+              <caret line="264" column="107" selection-start-line="264" selection-start-column="107" selection-end-line="264" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -66,8 +58,8 @@
       <file leaf-file-name="planos.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/planos.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.923077">
-              <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -83,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topo.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="topo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/topo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="200" column="13" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.64787114">
+              <caret line="177" column="66" selection-start-line="177" selection-start-column="66" selection-end-line="177" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -128,10 +120,10 @@
         <option value="$PROJECT_DIR$/Pages/topo.php" />
         <option value="$PROJECT_DIR$/css/topo.css" />
         <option value="$PROJECT_DIR$/js/topo.js" />
-        <option value="$PROJECT_DIR$/Pages/home.php" />
         <option value="$PROJECT_DIR$/css/carrousel.css" />
         <option value="$PROJECT_DIR$/css/quemSomos.css" />
         <option value="$PROJECT_DIR$/css/planos.css" />
+        <option value="$PROJECT_DIR$/Pages/home.php" />
       </list>
     </option>
   </component>
@@ -291,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1337953" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,14 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/topo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="200" column="13" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/topo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -599,6 +583,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -628,16 +613,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/planos.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.923077">
-          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38270143">
-          <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+        <state vertical-scroll-proportion="-25.5">
+          <caret line="264" column="107" selection-start-line="264" selection-start-column="107" selection-end-line="264" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/topo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64787114">
+          <caret line="177" column="66" selection-start-line="177" selection-start-column="66" selection-end-line="177" selection-end-column="66" />
           <folding />
         </state>
       </provider>
