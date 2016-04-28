@@ -51,7 +51,7 @@
     <div class="box">
         <div class="icons">
             <a class="link" href="#contrate">
-                <img class="imgIcons" src="img/icon1.jpg">
+                <img class="imgIcons" src="img/iconsHome/icon1.jpg">
 
                 <div class="texto">
                     <p class="title">Quero assinar</p>
@@ -63,7 +63,7 @@
 
         <div class="icons">
             <a class="link" href="#cobertura">
-                <img class="imgIcons" src="img/iconLocalizacao.jpg">
+                <img class="imgIcons" src="img/iconsHome/iconLocalizacao.jpg">
 
                 <div class="texto">
                     <p class="title">Nossa cobertura</p>
@@ -75,7 +75,7 @@
 
         <div class="icons">
             <a class="link" href="#planos">
-                <img class="imgIcons" src="img/iconPlanos.jpg">
+                <img class="imgIcons" src="img/iconsHome/iconPlanos.jpg">
 
                 <div class="texto">
                     <p class="titleMaior">Os melhores planos</p>
@@ -87,7 +87,7 @@
 
         <div class="icons iconFinal">
             <a class="link" href="#contato">
-                <img class="imgIcons" src="img/iconContato.jpg">
+                <img class="imgIcons" src="img/iconsHome/iconContato.jpg">
 
                 <div class="texto">
                     <p class="title">Fale conosco!</p>
@@ -103,7 +103,7 @@
         <div id="bloco1">
             <div class="icons">
                 <a class="link" href="#contrate">
-                    <img class="imgIcons" src="img/icon1.jpg">
+                    <img class="imgIcons" src="img/iconsHome/icon1.jpg">
 
                     <div class="texto">
                         <p class="title">Quero assinar</p>
@@ -116,7 +116,7 @@
 
             <div class="icons iconFinal">
                 <a class="link" href="#cobertura">
-                    <img class="imgIcons" src="img/iconLocalizacao.jpg">
+                    <img class="imgIcons" src="img/iconsHome/iconLocalizacao.jpg">
 
                     <div class="texto">
                         <p class="title">Nossa cobertura</p>
@@ -130,7 +130,7 @@
         <div id="bloco2">
             <div class="icons">
                 <a class="link" href="#planos">
-                    <img class="imgIcons" src="img/iconPlanos.jpg">
+                    <img class="imgIcons" src="img/iconsHome/iconPlanos.jpg">
 
                     <div class="texto">
                         <p class="titleMaior">Os melhores planos</p>
@@ -142,7 +142,7 @@
 
             <div class="icons iconFinal">
                 <a class="link" href="#contato">
-                    <img class="imgIcons" src="img/iconContato.jpg">
+                    <img class="imgIcons" src="img/iconsHome/iconContato.jpg">
 
                     <div class="texto">
                         <p class="title">Fale conosco!</p>
@@ -214,43 +214,43 @@
 
         <div class="megas">
             <a class="planos primeiro" id="m1" data-toggle="modal" data-target="#contrato" href="">
-                <img class="imgMega" src="img/10mega.png" onMouseOver="this.src='img/10megaHover.png'"
-                     onMouseOut="this.src='img/10mega.png'">
+                <img class="imgMega" src="img/planos/10mega.png" onMouseOver="this.src='img/planos/10megaHover.png'"
+                     onMouseOut="this.src='img/planos/10mega.png'">
             </a>
 
             <a class="planos" id="m2" data-toggle="modal" data-target="#contrato" href="">
-                <img class="imgMega" src="img/15mega.png" onMouseOver="this.src='img/15megaHover.png'"
-                     onMouseOut="this.src='img/15mega.png'">
+                <img class="imgMega" src="img/planos/15mega.png" onMouseOver="this.src='img/planos/15megaHover.png'"
+                     onMouseOut="this.src='img/planos/15mega.png'">
             </a>
         </div>
 
         <div class="megas">
             <a class="planos primeiro" id="m3" data-toggle="modal" data-target="#contrato" href="">
-                <img class="imgMega" src="img/20mega.png" onMouseOver="this.src='img/20megaHover.png'"
-                     onMouseOut="this.src='img/20mega.png'">
+                <img class="imgMega" src="img/planos/20mega.png" onMouseOver="this.src='img/planos/20megaHover.png'"
+                     onMouseOut="this.src='img/planos/20mega.png'">
             </a>
 
             <a class="planos" id="m4" data-toggle="modal" data-target="#contrato" href="">
-                <img class="imgMega" src="img/35mega.png" onMouseOver="this.src='img/35megaHover.png'"
-                     onMouseOut="this.src='img/35mega.png'">
+                <img class="imgMega" src="img/planos/35mega.png" onMouseOver="this.src='img/planos/35megaHover.png'"
+                     onMouseOut="this.src='img/planos/35mega.png'">
             </a>
         </div>
 
         <div class="planosEspeciais">
             <div id="inline">
                 <nobr><p class="titleAzul">Planos Especiais</p></nobr>
-                <img id="linha" src="img/linha.png"/>
+                <img id="linha" src="img/planos/linha.png"/>
             </div>
 
             <div class="megas">
                 <a class="planosEspeciais primeiro" id="m5" data-toggle="modal" data-target="#contrato" href="">
-                    <img class="imgMega" src="img/50mega.png" onMouseOver="this.src='img/50megaHover.png'"
-                         onMouseOut="this.src='img/50mega.png'">
+                    <img class="imgMega" src="img/planos/50mega.png" onMouseOver="this.src='img/planos/50megaHover.png'"
+                         onMouseOut="this.src='img/planos/50mega.png'">
                 </a>
 
                 <a class="planosEspeciais" id="m6" data-toggle="modal" data-target="#contrato" href="">
-                    <img class="imgMega" src="img/100mega.png" onMouseOver="this.src='img/100megaHover.png'"
-                         onMouseOut="this.src='img/100mega.png'">
+                    <img class="imgMega" src="img/planos/100mega.png" onMouseOver="this.src='img/planos/100megaHover.png'"
+                         onMouseOut="this.src='img/planos/100mega.png'">
                 </a>
             </div>
         </div>
@@ -351,7 +351,7 @@
             <!-- Icone | Texto -->
             <div id="iconeTexto">
                 <div class="icone col-lg-4">
-                    <img src="img/sugestoes.png"/>
+                    <img src="img/sugestoes.jpg"/>
                 </div>
 
                 <div class="txtIcone col-lg-8">
@@ -401,7 +401,7 @@
             <!-- Icone | Texto -->
             <div id="iconeTexto">
                 <div class="icone col-lg-4">
-                    <img src="img/localizacao.png"/>
+                    <img src="img/localizacao.jpg"/>
                 </div>
 
                 <div class="txtIcone col-lg-8">
