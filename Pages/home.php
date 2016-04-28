@@ -202,6 +202,7 @@
 <!------------------------------ INICIO PLANOS ------------------------------>
 
 <div id="planos" class="col-lg-12"></div>
+<div class="col-lg-12 divisoria" style="background-color: #eaeaea"></div>
 <div class="col-lg-12 planos">
     <div class="textosPlanos">
         <p class="titleAzul">INTERNET PARA SUA CASA</p>

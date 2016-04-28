@@ -153,10 +153,10 @@ $(function() {
             else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 300 && $(this).scrollTop() < posicaoContatos - 100) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 300 && $(this).scrollTop() < posicaoContatos - 900) {
                 ativar("liMenu3");
             }
-            else if ($(this).scrollTop() >= posicaoContatos - 100) {
+            else if ($(this).scrollTop() >= posicaoContatos) {
                 ativar("liMenu4");
             }
         }

@@ -6,7 +6,7 @@ p.titleAzul{
 }
 
 p#texto{
-    padding-bottom: 7%;
+    padding-bottom: 3.5%;
     text-align: justify;
 }
 
@@ -25,7 +25,7 @@ div.planos{
 div.megas{
     width: 100%;
     display: inline-flex;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@ div#inline{
     display: inline-flex;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 6%;
+    margin-bottom: 3.5%;
 }
 
 a.planos{
