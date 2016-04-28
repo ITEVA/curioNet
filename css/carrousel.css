@@ -221,6 +221,11 @@ div.item img.slide4{
 	display: none;
 	width: 100%;
 }
+
+div.item img.slide5{
+	display: none;
+	width: 100%;
+}
 /*div.one {
     background-color: #3d567e;
 }
@@ -267,14 +272,14 @@ div.three {
 	ol.carousel-indicators li {
 		width: 15px;
 		height: 15px;
-		border: 3px solid #3E6398;
+		border: 3px solid #fff;
 	}
 
 	.carousel-indicators .active {
 		width: 15px;
 		height: 15px;
 		margin-bottom: 2px;
-		background-color: #3E6398;
+		background-color: #fff;
 	}
 
 	p.info {
@@ -437,6 +442,14 @@ div.three {
 
 	p.titleMaior{
 		font-size: 13px;
+	}
+
+        div.item img.slide4{
+		display: none;
+	}
+        
+        div.item img.slide5{
+		display: block;
 	}
 }
 

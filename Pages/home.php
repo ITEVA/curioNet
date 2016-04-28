@@ -16,6 +16,7 @@
                 <img class="slide3" src="img/slides/slide1-1.jpg">
                 <img class="slide2" src="img/slides/slide1-2.jpg">
                 <img class="slide4" src="img/slides/slide1-3.jpg">
+                <img class="slide5" src="img/slides/slide1-4.jpg">
             </div>
 
             <div class="item two">
@@ -23,6 +24,7 @@
                 <img class="slide3" src="img/slides/slide2-1.jpg">
                 <img class="slide2" src="img/slides/slide2-2.jpg">
                 <img class="slide4" src="img/slides/slide2-3.jpg">
+                <img class="slide5" src="img/slides/slide2-4.jpg">
             </div>
 
             <div class="item three">
@@ -30,6 +32,7 @@
                 <img class="slide3" src="img/slides/slide3-1.jpg">
                 <img class="slide2" src="img/slides/slide3-2.jpg">
                 <img class="slide4" src="img/slides/slide3-3.jpg">
+                <img class="slide5" src="img/slides/slide3-4.jpg">
             </div>
         </div>
 
