@@ -22,14 +22,6 @@ div#contatos div.divMaior {
     margin-top: 0px;
 }
 
-div#contatos div#mapaContatos div.divMaior {
-    padding: 0px;
-    margin-top: 4%;
-    border: 3px solid #4470b5;
-    border-radius: 5px;
-    background-color: #eaeaea;
-}
-
 div#contatos .form-control {
     border: 2px solid #4470b5;
 }
@@ -46,6 +38,14 @@ div#contatos input {
 div#contatos .btn {
     margin-top: 3%;
     background-color: #4470b5;
+}
+
+div#contatos div#mapaContatos div.divMaior {
+    padding: 0px;
+    margin-top: 4%;
+    border: 3px solid #4470b5;
+    border-radius: 5px;
+    background-color: #eaeaea;
 }
 
 div#contatos div.iconSmall{
@@ -78,22 +78,45 @@ iframe#mapa {
     border-radius: 5px;
 }
 
+div.iconeTexto {
+    display: block;
+    position: relative;
+    width: auto;
+    height: 123px;
+}
+
 div#contatos div.icone {
+    display: block;
+    position: relative;
+    float: left;
     padding-right: 0px;
 }
 
-div#contatos div.txtIcone {
-    padding-left: 0px;
-    padding-right: 0px;    
-}
-
 div#contatos div#formContatos div.icone {
+    padding-left: 16px;
     max-width: 131px;
 }
 
 div#contatos div#mapaContatos div.icone {
-    padding-left: 0px;
+    padding-left: 0;
     max-width: 116px;
+}
+
+div#contatos div.txtIcone {
+    display: block;
+    position: relative;
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+
+div#contatos div#formContatos div.txtIcone {
+    width: 71%;
+}
+
+div#contatos div#mapaContatos div.txtIcone {
+    padding-left: 0px;
+    width: 76%;
 }
 
 div#telefoneEmail {
@@ -101,10 +124,109 @@ div#telefoneEmail {
     padding: 0px;
 }
 
-div#iconeTexto {
-    display:block;
-    position: relative;
-    width: auto;
-    height: auto;
-    margin-bottom: 3%;
+@media all and (max-width: 1800px){
+    div#contatos div.box {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 1650px){
+    div#contatos div.box {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 1520px){
+    div#contatos div.box {
+        width: 75%;
+    }
+    
+    div#contatos div#formContatos div.txtIcone {
+        width: 68%;
+    }
+}
+
+@media all and (max-width: 1400px){
+    div#contatos div.box {
+        width: 80%;
+    } 
+}
+
+@media all and (max-width: 1370px){
+    div#contatos div.box {
+        width: 85%;
+    }
+}
+
+@media all and (max-width: 1195px){
+    div#contatos div.box {
+        width: 60%;
+    }
+    
+    div#contatos div#formContatos div.txtIcone {
+        width: 75%;
+    }
+    
+    div#contatos div#mapaContatos div.txtIcone {
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 900px){
+    div#contatos div.box {
+        width: 70%;
+    }
+    
+    div#contatos div#formContatos div.txtIcone {
+        width: 70%;
+    }
+    
+    div#contatos div#mapaContatos div.txtIcone {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 650px){
+    div#contatos div.box {
+        width: 95%;
+    }    
+}
+
+@media all and (max-width: 480px){
+    div#contatos div.box {
+        width: 100%;
+    }
+    
+    div#contatos div.iconeTexto {
+        margin-bottom: 5%;
+        height: 160px;
+    }
+    
+    div#contatos div.icone img{
+        width: 70%;
+    }
+    
+    div#contatos div#formContatos div.txtIcone {
+        padding-left: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    div#contatos div#mapaContatos div.txtIcone {
+        width: 100%;
+        text-align: center;
+    }
+        
+    div#contatos div.icone {
+        float: none;
+        margin: auto;
+    }
+    
+    iframe#mapa {
+        height: 80%;
+    }
+}
+
+@media all and (max-width: 300px){
+    width: 100%;
 }

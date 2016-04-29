@@ -350,8 +350,8 @@
         <div id="formContatos" class="col-lg-5">
             
             <!-- Icone | Texto -->
-            <div id="iconeTexto">
-                <div class="icone col-lg-4">
+            <div class="iconeTexto">
+                <div class="icone">
                     <img src="img/sugestoes.jpg"/>
                 </div>
                 
@@ -400,12 +400,12 @@
         <div id="mapaContatos" class="col-lg-6">
             
             <!-- Icone | Texto -->
-            <div id="iconeTexto">
-                <div class="icone col-lg-4">
+            <div class="iconeTexto">
+                <div class="icone">
                     <img src="img/localizacao.jpg"/>
                 </div>
 
-                <div class="txtIcone col-lg-8">
+                <div class="txtIcone">
                     <p class="titleAzul">NOS ENCONTRE AQUI OU ENTRE EM CONTATO CONOSCO!</p>
                 </div>
 
