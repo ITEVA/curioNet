@@ -51,12 +51,13 @@ $(function() {
     $(window).resize(function() {
         posicaoMenu = $("#fixo").offset().top;
         posicaoMenuM = $("#menuToggle").offset().top;
-        posicaoQuemSomos = $(".quemSomos").offset().top;
-        posicaoPlanos = $(".planos").offset().top;
+        posicaoQuemSomos = $("#quemSomos").offset().top;
+        posicaoPlanos = $("#planos").offset().top;
         posicaoContatos = $("#contatos").offset().top;
         largura  = $(window).width();
     });
     $(window).scroll(function () {
+        //alert(posicaoContatos + '------' + $(this).scrollTop());
         /* Deixando o menu fixo */
         if ($(this).scrollTop() >= posicaoMenu && posicaoMenuM == 0) {
             $("#fixo").addClass('fixo');
@@ -150,13 +151,13 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 700) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 300 && $(this).scrollTop() < posicaoContatos - 900) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
             }
-            else if ($(this).scrollTop() >= posicaoContatos) {
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
                 ativar("liMenu4");
             }
         }
@@ -165,11 +166,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 700) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //1620
@@ -177,11 +181,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 700) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //1490
@@ -189,11 +196,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 700) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //1380
@@ -201,11 +211,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 600) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //1290
@@ -213,11 +226,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 550) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //1200
@@ -225,11 +241,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 550) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //1060
@@ -237,11 +256,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 550) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //1000
@@ -249,11 +271,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 450) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //910
@@ -261,11 +286,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 450) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
         //850
@@ -273,11 +301,14 @@ $(function() {
             if ($(this).scrollTop() >= 0 && $(this).scrollTop() < posicaoQuemSomos - 600) {
                 ativar("liMenu1");
             }
-            else if ($(this).scrollTop() >= posicaoQuemSomos - 100 && $(this).scrollTop() < posicaoPlanos - 700) {
+            else if ($(this).scrollTop() >= posicaoQuemSomos - 5 && $(this).scrollTop() < posicaoPlanos - 450) {
                 ativar("liMenu2");
             }
-            else if ($(this).scrollTop() >= posicaoPlanos - 400) {
+            else if ($(this).scrollTop() >= posicaoPlanos - 5 && $(this).scrollTop() < posicaoContatos - 700) {
                 ativar("liMenu3");
+            }
+            else if ($(this).scrollTop() >= posicaoContatos - 117) {
+                ativar("liMenu4");
             }
         }
     });

@@ -36,8 +36,8 @@ button.btnPlanos{
 }
 
 div#botao{
-    margin-bottom: 6%;
-    margin-top: -6%;
+    margin-bottom: 13%;
+    margin-top: -13%;
     margin-left: 10.5%;
     padding-left: 24%;
 }
@@ -123,8 +123,6 @@ div#todoQuemSomos {
         display: block;
     }
     div#botao{
-        margin-bottom: 6%;
-        margin-top: -6%;
         margin-left: 9.5%;
         padding-left: 24%;
     }
