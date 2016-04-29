@@ -1,6 +1,6 @@
 <?php
             
-    function sendMail($assunto,$mensagem,$destino,$nomeDestino, $reply = NULL, $replyNome = NULL, $anexo = NULL, $logo){
+    function sendMail($assunto,$mensagem,$destino,$nomeDestino, $reply = NULL, $replyNome = NULL, $anexo = NULL, $logo = NULL){
             
         $mail = new PHPMailer(); //INICIA A CLASSE
         $mail->IsSMTP(); //Habilita envio SMPT
@@ -9,15 +9,15 @@
         $mail->CharSet = "UTF-8"; // Charset da mensagem (opcional)
         
         /* Protocolo da conexão */
-        $mail->SMTPDebug = 4; 
-        $mail->SMTPSecure = "ssl";
+        //$mail->SMTPDebug = 4; 
+        //$mail->SMTPSecure = "ssl";
         
-        $mail->Host = 'smtp.gmail.com'; //Servidor de envio
-        $mail->Port = 465 ; //Porta de envio
-        $mail->Username = 'josinaldosb@gmail.com'; //email para smtp autenticado
-        $mail->Password = 'jo22sb11'; //seleciona a porta de envio
+        $mail->Host = 'smtp.curionet.com.br'; //Servidor de envio
+        $mail->Port = 587 ; //Porta de envio
+        $mail->Username = 'contato@curionet.com.br'; //email para smtp autenticado
+        $mail->Password = 'cur10n3t'; //seleciona a porta de envio
 
-        $mail->From = 'josinaldosb@gmail.com'; //remetente
+        $mail->From = 'contato@curionet.com.br'; //remetente
         $mail->FromName = 'CNT - Curió Net Telecom'; //nome remetente
 
         /* Enviar imagem */

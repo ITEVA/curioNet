@@ -34,7 +34,7 @@ $(document).ready(function(){
         setTimeout(
             function(){ 
                 location.reload();
-            },7000
+            },6000
         ); 
 
         return false;

@@ -20,7 +20,7 @@ $(document).ready(function(){
         setTimeout(
             function(){ 
                 location.reload();
-            },5000
+            },4000
         );
         return false;
     });

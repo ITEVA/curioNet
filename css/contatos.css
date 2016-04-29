@@ -1,6 +1,6 @@
 div#contatos {
    background-color: #fff;
-   margin-bottom: 80px;
+   margin-bottom: 30px;
 }
 
 div#contatos div.box {
@@ -82,7 +82,7 @@ div.iconeTexto {
     display: block;
     position: relative;
     width: auto;
-    height: 123px;
+    height: 110px;
 }
 
 div#contatos div.icone {

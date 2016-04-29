@@ -50,7 +50,7 @@
 <div class="col-lg-12 icones">
     <div class="box">
         <div class="icons">
-            <a class="link" href="#contrate">
+            <a class="link" href="#planos">
                 <img class="imgIcons" src="img/iconsHome/icon1.jpg">
 
                 <div class="texto">
@@ -86,7 +86,7 @@
         </div>
 
         <div class="icons iconFinal">
-            <a class="link" href="#contato">
+            <a class="link" href="#contatos">
                 <img class="imgIcons" src="img/iconsHome/iconContato.jpg">
 
                 <div class="texto">
