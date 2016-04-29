@@ -366,23 +366,27 @@
             
             <!-- Form -->
             <div class="col-lg-12 divMaior">
-                <form>
-                    
+                <form id="formContato2">
+                    <div class="alert alert-success alert-dismissible" id="emailSucesso2" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <strong>E-mail enviado com sucesso!</strong>
+                    </div>
                     <label>*Nome</label>
-                    <input type="text" required class="form-control" id="exampleInputEmail1" placeholder="">
+                    <input type="text" required class="form-control" id="nomeContato" name="nomeContato" placeholder="">
 
                     <label>*Email</label>
-                    <input type="email" required class="form-control" id="exampleInputEmail1" placeholder="">
+                    <input type="email" required class="form-control" id="emailContato" name="emailContato" placeholder="">
                       <!--<small class="text-muted">We'll never share your email with anyone else.</small>-->
                     
                     <label>Endereço</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                    <input type="text" class="form-control" id="enderecoContato" name="enderecoContato" placeholder="">
                     
                     <label>Telefone</label>
-                    <input type="text" class="form-control" id="" placeholder="">
+                    <input type="text" class="form-control" id="telefoneContato" name="telefoneContato" placeholder="">
                     
                     <label>*Mensagem</label>
-                    <textarea type="text" required class="form-control" id="" placeholder=""></textarea>
+                    <textarea type="text" required class="form-control" id="mensagemContato" name="mensagemContato" placeholder=""></textarea>
                       
                     <button type="submit" class="btn btn-primary">Enviar</button>
                     <input type="reset" class="btn botao" id="limpar" value="Limpar"/>

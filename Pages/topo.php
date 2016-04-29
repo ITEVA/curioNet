@@ -21,6 +21,7 @@
     <script type="text/javascript" src="js/prefixfree.min.js"></script>
     <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
     <script type="text/javascript" src="js/contrato.js"></script>
+    <script type="text/javascript" src="js/contato.js"></script>
 
 
     <title>Curió</title>
