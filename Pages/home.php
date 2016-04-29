@@ -377,19 +377,18 @@
 
                     <label>*Email</label>
                     <input type="email" required class="form-control" id="emailContato" name="emailContato" placeholder="">
-                      <!--<small class="text-muted">We'll never share your email with anyone else.</small>-->
                     
                     <label>Endereço</label>
                     <input type="text" class="form-control" id="enderecoContato" name="enderecoContato" placeholder="">
                     
                     <label>Telefone</label>
-                    <input type="text" class="form-control" id="telefoneContato" name="telefoneContato" placeholder="">
+                    <input type="tel" class="form-control" id="telefoneContato" name="telefoneContato" placeholder="">
                     
                     <label>*Mensagem</label>
                     <textarea type="text" required class="form-control" id="mensagemContato" name="mensagemContato" placeholder=""></textarea>
                       
                     <button type="submit" class="btn btn-primary">Enviar</button>
-                    <input type="reset" class="btn botao" id="limpar" value="Limpar"/>
+                    <input type="reset" class="btn btn-primary" id="limpar" value="Limpar"/>
                 </form>
                 <label>
                     * Campos de preenchimento obrigatório.

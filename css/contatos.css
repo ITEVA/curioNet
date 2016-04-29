@@ -1,6 +1,6 @@
 div#contatos {
    background-color: #fff;
-   margin-bottom: 30px;
+   margin-bottom: 80px;
 }
 
 div#contatos div.box {
@@ -39,6 +39,7 @@ div#contatos .btn {
     margin-top: 3%;
     background-color: #4470b5;
 }
+
 
 div#contatos div#mapaContatos div.divMaior {
     padding: 0px;

@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('div#emailSucesso2').css("display", "none");
+    $("#telefoneContato").mask("(99) 9999-9999");
     $("#formContato2").submit(function(){
         $.ajax({
         method: "POST",
