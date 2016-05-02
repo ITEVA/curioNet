@@ -70,13 +70,13 @@
                     <div id="links">
                         <a class="linkRola" onclick="$('#change-hamburguer').click();" id="link1" href="#home">Home</a>
                         <hr>
-                        <a class="linkRola" onclick="$('#change-hamburguer').click();" href="#quemSomos">Quem Somos</a>
+                        <a class="linkRola" onclick="$('#change-hamburguer').click();" id="link2" href="#quemSomos">Quem Somos</a>
                         <hr>
-                        <a class="linkRola" onclick="$('#change-hamburguer').click();" href="#planos">Planos</a>
+                        <a class="linkRola" onclick="$('#change-hamburguer').click();" id="link3" href="#planos">Planos</a>
                         <hr>
-                        <a class="linkRola" onclick="$('#change-hamburguer').click();" href="#contatos">Contatos</a>
+                        <a class="linkRola" onclick="$('#change-hamburguer').click();" id="link4" href="#contatos">Contatos</a>
                         <hr>
-                        <a target="_blank" onclick="$('#change-hamburguer').click();" href="http://www.speedtest.net/pt/">Teste de Velocidade</a>
+                        <a target="_blank" onclick="$('#change-hamburguer').click();" id="link5" href="http://www.speedtest.net/pt/">Teste de Velocidade</a>
                         <hr>
                     </div>
                 </div>
