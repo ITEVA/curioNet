@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/carrousel.css">
@@ -30,7 +33,7 @@
 <div id="box">
     <div class="col-lg-12 barraSuperior">
         <div class="botao">
-            <button class="btnCliente">Área do cliente &nbsp;<span class="glyphicon glyphicon-user"></span></button>
+            <a href="http://mk.curionet.com.br:8080/sac/open.do?action=open&sys=SAC" target="_blank"><button class="btnCliente">Área do cliente &nbsp;<span class="glyphicon glyphicon-user"></span></button></a>
         </div>
         <div class="col-lg-8 logoResponsive">
             <div class="imgCenter">
@@ -52,7 +55,6 @@
                     <li id="liMenu2" role="presentation" class="itemMenu"><a class="linkRola" href="#quemSomos">Quem somos</a></li>
                     <li id="liMenu3" role="presentation" class="itemMenu"><a class="linkRola" href="#planos">Planos</a></li>
                     <li id="liMenu4" role="presentation" class="itemMenu"><a class="linkRola" href="#contatos">Contatos</a></li>
-                    <li id="liMenu5" role="presentation" class="itemMenu"><a class="linkRola" target="_blank" href="http://www.speedtest.net/pt/">Teste de Velocidade</a></li>
                 </ul>
             </div>
         </div>
@@ -76,7 +78,7 @@
                         <hr>
                         <a class="linkRola" onclick="$('#change-hamburguer').click();" id="link4" href="#contatos">Contatos</a>
                         <hr>
-                        <a target="_blank" onclick="$('#change-hamburguer').click();" id="link5" href="http://www.speedtest.net/pt/">Teste de Velocidade</a>
+                        <a onclick="$('#change-hamburguer').click();" id="link5" href="http://simet.nic.br/simet-app.html" target="_blank">Teste de Velocidade</a>
                         <hr>
                     </div>
                 </div>

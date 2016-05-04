@@ -1,5 +1,4 @@
 <?php
-
 /** Configurações do site */
 define('HOST', 'localhost');
 define('USER', 'root');
@@ -8,7 +7,7 @@ define('DBSA', 'test');
 
 /** @var string */
 $host = is_string($_SERVER["HTTP_HOST"]) ? $_SERVER["HTTP_HOST"] : "" ;
-define('RAIZ', "http://{$host}/siteConnect/");
+define('RAIZ', "http://curionet.com.br");
 
 /**
  * __autoload

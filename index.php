@@ -1,5 +1,4 @@
 <?php
-
 /** Arquivo de configuração do sistema */
 include_once('Classes/Config.inc.php');
 
