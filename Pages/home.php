@@ -420,8 +420,8 @@
             </div>
             
             <div id="telefoneEmail" class="col-lg-12">
-                <div class="iconSmall">
-                    <img src='img/icon1.jpg'/>
+                <div class="iconSmall imp">
+                    <img id="local" src='img/icon1.jpg'/>
                     <label>
                         Rua Nelson Coelho, 376 Lagoa Redonda - Curió Fortaleza - CE
                     </label>

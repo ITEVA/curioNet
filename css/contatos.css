@@ -205,10 +205,10 @@ div#telefoneEmail {
     
     div#contatos div.icone img{
         width: 70%;
+        margin-left: 16%;
     }
     
     div#contatos div#formContatos div.txtIcone {
-        padding-left: 16px;
         width: 100%;
         text-align: center;
     }
@@ -226,8 +226,27 @@ div#telefoneEmail {
     iframe#mapa {
         height: 80%;
     }
-}
 
-@media all and (max-width: 300px){
-    width: 100%;
+    div#contatos div#formContatos div.icone {
+        padding-left: 0;
+    }
+
+    div#contatos p#texto {
+        text-align: center;
+    }
+
+    div#contatos div.iconeTexto {
+        margin-bottom: 0;
+    }
+
+    div#contatos div.imp {
+        display: flex;
+    }
+
+    div#contatos div.iconSmall img#local{
+        height: 30px;
+        margin-top: 2%;
+        margin-right: 1%;
+        width: 20px;
+    }
 }

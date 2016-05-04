@@ -433,6 +433,10 @@ div.three {
 	p.titleMaior{
 		font-size: 14px;
 	}
+
+	div.divisoria {
+		height: 50px;
+	}
 }
 
 @media all and (max-width: 395px){
