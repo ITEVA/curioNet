@@ -55,6 +55,7 @@
                     <li id="liMenu2" role="presentation" class="itemMenu"><a class="linkRola" href="#quemSomos">Quem somos</a></li>
                     <li id="liMenu3" role="presentation" class="itemMenu"><a class="linkRola" href="#planos">Planos</a></li>
                     <li id="liMenu4" role="presentation" class="itemMenu"><a class="linkRola" href="#contatos">Contatos</a></li>
+                    <li id="liMenu5" role="" class=""><a class="" href="http://simet.nic.br/simet-app.html" target="_blank">Teste de Velocidade</a></li>
                 </ul>
             </div>
         </div>
