@@ -1,11 +1,8 @@
 $(function() {
-    $(".menu2").click(function (event) {
+    $(".linkRola").click(function (event) {
         event.preventDefault();
 
         $('.menu2').css({'height': '0'});
-
-        $('#change-hamburguer').click();
-
     });
 
     $(".linkRola").click(function (event) {
@@ -39,6 +36,16 @@ $(function() {
 
         $("#" + link).removeClass('desactive')
                      .addClass("active");
+    }
+
+    function marcardesmarcar(){
+        $('#change-hamburguer').each(
+            function(){
+                if ($(this).prop( "checked"))
+                    $(this).prop("checked", false);
+                else $(this).prop("checked", true);
+            }
+        );
     }
 
     var posicaoMenu = $("#fixo").offset().top;
