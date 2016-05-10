@@ -71,13 +71,13 @@
 
                 <div id="menu2" class="menu2" onclick="$('#change-hamburguer').click();">
                     <div id="links">
-                        <a class="linkRola" onclick="marcardesmarcar();" id="link1" href="#home">Home</a>
+                        <a class="linkRola" onclick="marcardesmarcar();" href="#home">Home</a>
                         <hr>
-                        <a class="linkRola" onclick="marcardesmarcar();" id="link2" href="#quemSomos">Quem Somos</a>
+                        <a class="linkRola" onclick="marcardesmarcar();" href="#quemSomos">Quem Somos</a>
                         <hr>
-                        <a class="linkRola" onclick="marcardesmarcar();" id="link3" href="#planos">Planos</a>
+                        <a class="linkRola" onclick="marcardesmarcar();" href="#planos">Planos</a>
                         <hr>
-                        <a class="linkRola" onclick="marcardesmarcar();" id="link4" href="#contatos">Contatos</a>
+                        <a class="linkRola" onclick="marcardesmarcar();" href="#contatos">Contatos</a>
                         <hr>
                         <a onclick="marcardesmarcar();" id="link5" href="http://simet.nic.br/simet-app.html" target="_blank">Teste de Velocidade</a>
                         <hr>
