@@ -35,13 +35,10 @@
         $mail->Body = $mensagem; //mensagem
         $mail->AddAddress($destino,$nomeDestino); //email e nome do destino
 
-        if($mail->Send()){           
-            echo 'deu certo pvt!';
-            return true;
-        }else {           
-            echo 'deu errado!';
-            echo "<b>Informações do erro:</b> " . $mail->ErrorInfo;
-            return false;
+        if($mail->Send()){        
+            echo 1;
+            
+        }else {
         }
     }
 ?> 

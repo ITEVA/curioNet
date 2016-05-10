@@ -272,11 +272,25 @@
             </div>
             <form id="formContrato" method="post">
                 <div class="modal-body">
+                    
                     <div class="alert alert-success alert-dismissible" id="emailSucesso" role="alert">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
                                 aria-hidden="true">&times;</span></button>
                         <strong>E-mail enviado com sucesso!</strong>
                     </div>
+                    
+                    <div class="alert alert-info alert-dismissible" id="aguarde" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <strong>Aguarde...</strong>
+                    </div>
+                    
+                    <div class="alert alert-danger alert-dismissible" id="erro" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <strong>Erro ao enviar email. Tente novamente!</strong>
+                    </div>
+                    
                     <ul class="row">
                         <li class="col-xs-6">
                             <input class="form-control" id="nome" onkeypress="return letras()" type="text"
@@ -367,11 +381,25 @@
             <!-- Form -->
             <div class="col-lg-12 divMaior">
                 <form id="formContato2">
+                    
                     <div class="alert alert-success alert-dismissible" id="emailSucesso2" role="alert">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
                                 aria-hidden="true">&times;</span></button>
                         <strong>E-mail enviado com sucesso!</strong>
                     </div>
+                    
+                    <div class="alert alert-info alert-dismissible" id="aguarde2" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <strong>Aguarde...</strong>
+                    </div>
+                    
+                    <div class="alert alert-danger alert-dismissible" id="erro2" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <strong>Erro ao enviar email. Tente novamente!</strong>
+                    </div>
+                    
                     <label>*Nome</label>
                     <input type="text" required class="form-control" id="nomeContato" name="nomeContato" placeholder="">
 
