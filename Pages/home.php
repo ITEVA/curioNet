@@ -62,13 +62,13 @@
         </div>
 
         <div class="icons">
-            <a class="link" href="#cobertura">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=oLMD8DxGCTg">
                 <img class="imgIcons" src="img/iconsHome/iconLocalizacao.jpg">
 
                 <div class="texto">
-                    <p class="title">Nossa cobertura</p>
+                    <p class="title">Vídeo!</p>
 
-                    <p class="info">Descubra onde atendemos e como ter internet de qualidade</p>
+                    <p class="info">Descubra como o sinal de Wi-Fi circula pela sua casa.</p>
                 </div>
             </a>
         </div>
@@ -115,13 +115,13 @@
             </div>
 
             <div class="icons iconFinal">
-                <a class="link" href="#cobertura">
+                <a class="link" target="_blank" href="https://www.youtube.com/watch?v=oLMD8DxGCTg">
                     <img class="imgIcons" src="img/iconsHome/iconLocalizacao.jpg">
 
                     <div class="texto">
-                        <p class="title">Nossa cobertura</p>
+                        <p class="title">Vídeo!</p>
 
-                        <p class="info">Descubra onde atendemos e como ter internet de qualidade</p>.
+                        <p class="info">Descubra como o sinal de Wi-Fi circula pela sua casa.</p>
                     </div>
                 </a>
             </div>
