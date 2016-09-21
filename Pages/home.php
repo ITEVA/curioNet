@@ -74,13 +74,13 @@
         </div>
 
         <div class="icons">
-            <a class="link" href="#planos">
+            <a class="link" href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">
                 <img class="imgIcons" src="img/iconsHome/iconPlanos.jpg">
 
                 <div class="texto">
-                    <p class="titleMaior">Os melhores planos</p>
+                    <p class="titleMaior">Reemissão de boletos</p>
 
-                    <p class="info">Oferecemos internet de qualidade com preços excelentes.</p>
+                    <p class="info">Atualize seus boletos!</p>
                 </div>
             </a>
         </div>
