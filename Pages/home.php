@@ -62,7 +62,7 @@
         </div>
 
         <div class="icons">
-            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=oLMD8DxGCTg">
+            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=bqhmrnUlV1E&feature=youtu.be">
                 <img class="imgIcons" src="img/iconsHome/iconLocalizacao.jpg">
 
                 <div class="texto">
