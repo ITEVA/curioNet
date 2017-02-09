@@ -5,8 +5,8 @@
 require("EnviarEmail.php");
 
 /**
-* Inclui classes de envio de email
-*/
+ * Inclui classes de envio de email
+ */
 
 require_once('../Classes/mail/class.phpmailer.php');
 
@@ -20,13 +20,13 @@ $mensagem2 = "<body>
                         <img src='cid:connect'/>
                     </div>
                     <div style='display: block; position: absolute; font-size: 14pt; margin-top: 120px; top: 120px; text-align: left;'>"
-                        ."<p>Olá ".$_POST['nome']."!</p>"
-                        ."<p>Segue em anexo um arquivo com os planos e preços oferecidos pela Curió Net Telecom.</p>"
-                        ."<p>Para obter mais informações entre em contato conosco: </br>(85) 3476-3670 - FIXO | (85) 8711-4447 | contato@curionet.com.br</br></p>"
-                        ."<p>Att.</br>CNT - Curió Net Telecom.</p>"
-                    ."</div>"
-        
-                    ."<div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
+    ."<p>Olá ".$_POST['nome']."!</p>"
+    ."<p>Segue em anexo um arquivo com os planos e preços oferecidos pela Curió Net Telecom.</p>"
+    ."<p>Para obter mais informações entre em contato conosco: </br>(85) 3476-3670 - FIXO | (85) 8711-4447 | contato@curionet.com.br</br></p>"
+    ."<p>Att.</br>CNT - Curió Net Telecom.</p>"
+    ."</div>"
+
+    ."<div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
                         <p><a href='http://curionet.com.br'>clique aqui para ser redirecionado ao site</a></p>  
                     </div>
                     

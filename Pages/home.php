@@ -78,9 +78,7 @@
                 <img class="imgIcons" src="img/iconsHome/iconPlanos.jpg">
 
                 <div class="texto">
-                    <p class="titleMaior">Reemissão de boletos</p>
-
-                    <p class="info">Atualize seus boletos!</p>
+                    <p class="titleMaior">Atualize seus boletos!</p>
                 </div>
             </a>
         </div>
@@ -259,7 +257,7 @@
 </div>
 
 
-<!----------------------------- INICIO MODAL ------------------------------>
+<!----------------------------- INICIO MODAL CONTRATO ------------------------------>
 
 <div class="modal fade" id="contrato" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
@@ -350,11 +348,112 @@
         </div>
     </div>
 </div>
-<!----------------------------- FIM MODAL ------------------------------>
+<!----------------------------- FIM MODAL CONTRATO ------------------------------>
 
 <!------------------------------ FIM PLANOS ------------------------------>
 
 <div class="col-lg-12 divisoria"></div>
+
+
+
+<!------------------------------ INICIO TESTE DE VELOCIDADDE ------------------------------>
+
+<a data-toggle="modal" data-target="#testeVelocidade">speedtest</a>
+
+<!------------------------------ FIM TESTE DE VELOCIDADDE ------------------------------>
+
+<!----------------------------- INICIO MODAL  TESTE DE VELOCIDADE ------------------------------>
+
+<div class="modal fade" id="testeVelocidade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">-</h4>
+                <h6 class="modal-title" id="myModalLabel">-</h6>
+            </div>
+            <form id="formContrato" method="post">
+                <div class="modal-body">
+
+                    <!--<div class="alert alert-success alert-dismissible" id="emailSucesso" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                        <strong>E-mail enviado com sucesso!</strong>
+                    </div>
+
+                    <div class="alert alert-info alert-dismissible" id="aguarde" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                        <strong>Aguarde...</strong>
+                    </div>
+
+                    <div class="alert alert-danger alert-dismissible" id="erro" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                        <strong>Erro ao enviar email. Tente novamente!</strong>
+                    </div>
+
+                    <ul class="row">
+                        <li class="col-xs-6">
+                            <input class="form-control" id="nome" onkeypress="return letras()" type="text"
+                                   placeholder="Nome Completo" name="nome" required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control" id="email" type="email" placeholder="E-mail" name="email"
+                                   required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control" id="celular" type="tel" placeholder="Celular" name="celular"
+                                   required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control" id="telefone" type="tel" placeholder="Telefone"
+                                   name="telefone"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control" id="rua" type="text" onkeypress="return letras()"
+                                   placeholder="Rua" name="rua" required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <select required id="sel1" class="form-control" name="bairro">
+                                <option value="">Selecione seu bairro</option>
+                                <option id="lc" value="Curió">Curió</option>
+                                <option value="Lagoa Redonda">Lagoa Redonda</option>
+                                <option value="Itambé">Itambé</option>
+                                <option value="Palmeirinha">Palmeirinha</option>
+                                <option value="José de Alencar">José de Alencar</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control numero" onkeypress="return numeros()" id="numero" type="text"
+                                   placeholder="Número" name="numero" required="required"/>
+                        </li>
+
+                        <li class="col-xs-6">
+                            <input class="form-control complemento" type="text" placeholder="Complemento"
+                                   id="complemento" name="complemento"/>
+                        </li>
+
+                    </ul>-->
+
+                </div>
+                <div class="modal-footer">
+                    <!--<input type="submit" class="botao" id="enviar" value="Enviar" name="enviar"/>
+                    <input type="reset" class="botao" id="limpar" value="Limpar"/>-->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!----------------------------- FIM MODAL TESTE DE VELOCIDADE ------------------------------>
 
 <!------------------------------ INICIO CONTATOS ------------------------------>
 <div id="contatos" class="col-lg-12">
@@ -437,23 +536,41 @@
                 </div>
 
                 <div class="txtIcone">
-                    <p class="titleAzul">NOS ENCONTRE AQUI OU ENTRE EM CONTATO CONOSCO!</p>
+                    <p class="titleAzul">MAIS INFORMAÇÕES SOBRE NÓS!</p>
                 </div>
 
             </div>
             <!-- FIM Icone | Texto -->
-            
+
             <div class="col-lg-12 divMaior">
-                <iframe id="mapa" style="border-radius: 5px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.908207059552!2d-38.46773668462381!3d-3.829865644770789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74549beba3325%3A0xaa3c623399499767!2sCuri%C3%B3+Net!5e0!3m2!1spt-BR!2sbr!4v1461769276723" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p class="titleAzul">Se você já é nosso cliente acesse a nossa área do cliente através do celular: </p>
+                <p class="titleAzul">• Baixe o aplicativo MK SAC </p>
+                <img id="logoMK" src="img/logoMK.jpg">
+                <a href="https://play.google.com/store/apps/details?id=br.com.mksolutions.mksac" target="_blank">
+                    <img id="logoGglPlay" src="img/logoGooglePlay.png">
+                </a>
+                <p class="titleAzul">• Leia o QR-Code abaixo: </p>
+                <img src="img/qrcode.jpg"/>
+                <p class="titleAzul">• Entre com o seu login e senha. </p>
             </div>
+            <!--<div class="col-lg-12 divMaior">
+               iframe id="mapa" style="border-radius: 5px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.908207059552!2d-38.4677366846238
+               1!3d-3.829865644770789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74549beba3325%3A0xaa3c623399499767!2sCuri%C3%B3+Net!5e0!3m2!1spt-BR!2s
+               br!4v1461769276723" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>-->
             
             <div id="telefoneEmail" class="col-lg-12">
-                <div class="iconSmall imp">
-                    <img id="local" src='img/icon1.jpg'/>
+                <div class="iconSmall">
+                    <img src='img/icon4.jpg'/>
                     <label>
-                        Rua Nelson Coelho, 376 Lagoa Redonda - Curió Fortaleza - CE
+                        Horário de atendimento:
                     </label>
+                    <label> • Segunda a Sexta: 08:00 às 12:00 | 13:00 às 21:00</label>
+                    <label> • Sábado: 08:00 às 12:00 | 13:00 às 20:00</label>
+                    <label> • Domingo e Feriados: 09:00 às 12:00 | 13:00 às 17:00</label>
                 </div>
+
+                <label>CONTATOS:</label>
                 
                 <div class="iconSmall">
                     <img src='img/icon2.jpg'/>
@@ -468,6 +585,7 @@
                         contato@curionet.com.br 
                     </label>
                 </div>
+
             </div>
         </div>
     </div>

@@ -42,8 +42,8 @@ div#contatos .btn {
 
 
 div#contatos div#mapaContatos div.divMaior {
-    padding: 0px;
-    margin-top: 4%;
+    padding: 15px;
+    margin-top: 0;
     border: 3px solid #4470b5;
     border-radius: 5px;
     background-color: #eaeaea;
@@ -125,6 +125,14 @@ div#telefoneEmail {
     padding: 0px;
 }
 
+#logoMK {
+    width: 75px;
+}
+
+#logoGglPlay {
+    width: 180px;
+}
+
 @media all and (max-width: 1800px){
     div#contatos div.box {
         width: 70%;
@@ -200,7 +208,7 @@ div#telefoneEmail {
     
     div#contatos div.iconeTexto {
         margin-bottom: 5%;
-        height: 160px;
+        height: 115px;
     }
     
     div#contatos div.icone img{
@@ -248,5 +256,19 @@ div#telefoneEmail {
         margin-top: 2%;
         margin-right: 1%;
         width: 20px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    div#contatos div.iconeTexto {
+        height: 150px;
+    }
+
+    divMaior p.titleAzul {
+        font-size: 16px;
+    }
+
+    #logoGglPlay {
+        width: 150px;
     }
 }

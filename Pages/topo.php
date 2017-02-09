@@ -85,7 +85,9 @@
                 </div>
             </div>
             <div class="botao2">
-                <button class="btnCliente2" title="Área do Cliente">&nbsp;<span class="glyphicon glyphicon-user"></span></button>
+                <a href="http://mk.curionet.com.br:8080/sac/open.do?action=open&sys=SAC" target="_blank">
+                    <button class="btnCliente2" title="Área do Cliente">&nbsp;<span class="glyphicon glyphicon-user"></span></button>
+                </a>
             </div>
         </div>
     </div>
